@@ -24,7 +24,7 @@ export default function Home() {
 
             <MDBBtn className="mb-4 px-5 mx-5 w-100" color='info' size='lg'>Login</MDBBtn>
             <p className="small mb-5 pb-lg-3 ms-5"><NavLink className="text-muted" to="#!">Forgot password?</NavLink></p>
-            <p className='ms-5'>Don't have an account? <NavLink to="#!" className="link-info">Register here</NavLink></p>
+            <p className='ms-5'>Don't have an account? </p>
 
           </div>
 

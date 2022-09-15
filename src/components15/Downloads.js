@@ -1,5 +1,6 @@
 import React from 'react'
 import { a, NavLink } from 'react-router-dom';
+import img1 from './images/2020.jpg';
 export default function Messregistration() {
   return (
     <>
@@ -14,6 +15,8 @@ export default function Messregistration() {
                 <NavLink className="nav-link" to="/requestbudget">Request for budget</NavLink>
             </li>
         </ul>
+        <br/>
+        <img src={img1} className="img-fluid shadow-4" alt="..."/>
     </>
   )
 }

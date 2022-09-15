@@ -11,7 +11,6 @@ export default function Home() {
         <MDBCol sm='6'>
 
           <div className='d-flex flex-row ps-5 pt-5'>
-            <MDBIcon fas icon="crow fa-3x me-3" style={{ color: '#709085' }}/>
             <span className="h1 fw-bold mb-0">IIT Tirupati</span>
           </div>
 
@@ -24,7 +23,6 @@ export default function Home() {
 
             <MDBBtn className="mb-4 px-5 mx-5 w-100" color='info' size='lg'>Login</MDBBtn>
             <p className="small mb-5 pb-lg-3 ms-5"><NavLink className="text-muted" to="#!">Forgot password?</NavLink></p>
-            <p className='ms-5'>Don't have an account? </p>
 
           </div>
 

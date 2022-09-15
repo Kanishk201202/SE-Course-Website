@@ -1,6 +1,6 @@
 import React from 'react'
 import { a, NavLink } from 'react-router-dom';
-import img1 from './images/2.png';
+import img1 from './images/2.jpg';
 export default function Constitution() {
   return (
     <>
@@ -16,25 +16,8 @@ export default function Constitution() {
         <h1>Constitution</h1>
         Write about constitution.
         
-        <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
-            <div className="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-            </div>
-            <br/>
-            <div className="carousel-inner">
-                <div className="carousel-item active">
-                    <img src={img1} className="d-block w-75" alt=""/>
-                </div>
-            </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-            </button>
-        </div>
+        <br/>
+        <img src={img1} className="img-fluid shadow-4" alt="..."/>
     </div>
     </>
   )

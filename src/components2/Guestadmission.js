@@ -8,7 +8,7 @@ export default function Guestadmission() {
                 <label for="inputPassword6" className="col-form-label">Name</label>
             </div>
             <div className="col-auto">
-                <input type="password" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
+                <input type="text" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
             </div>
             <div className="col-auto">
                 <span id="passwordHelpInline" className="form-text">
@@ -41,7 +41,7 @@ export default function Guestadmission() {
                 <label for="inputPassword6" className="col-form-label">Contact Number</label>
             </div>
             <div className="col-auto">
-                <input type="password" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
+                <input type="text" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
             </div>
             <div className="col-auto">
                 <span id="passwordHelpInline" className="form-text">

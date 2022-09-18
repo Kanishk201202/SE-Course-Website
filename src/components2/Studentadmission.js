@@ -1,6 +1,48 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 export default function Studentadmission() {
+    const [user, setUser] = useState({
+        name:"",rollnumber:"",programme:"",gender:"",email:"",contactnumber:""
+    });
+
+    let name, value;
+
+    const handleInputs = (e) => {
+        console.log(e);
+        name = e.target.name;
+        value = e.target.value;
+
+        setUser({...user, [name]:value});
+    }
+
+    const PostData = async (e) => {
+        e.preventDefault();
+
+        const{ name, rollnumber, programme, gender, email, contactnumber } = user;
+
+        const res = await fetch("/register", {
+            method: "POST",
+            headers: {
+                "Content-Type" : "application/json"
+            },
+            body:JSON.stringify({
+
+                name, rollnumber, programme, gender, email, contactnumber
+            
+            })
+        });
+
+        const data = await res.json();
+
+        if(data.status === 422 || !data){
+            window.alert("Invalid Registration");
+            console.log("Invalid Registration");
+        }else{
+            window.alert("Registration Successful");
+            console.log("Successfull Registration");
+        }
+    }
+
   return (
     <>
         <div className="row g-3 align-items-center">
@@ -8,7 +50,10 @@ export default function Studentadmission() {
                 <label for="inputPassword6" className="col-form-label">Name</label>
             </div>
             <div className="col-auto">
-                <input type="text" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
+                <input type="text" name="name" id="inputPassword6" className="form-control" 
+                value={user.name}
+                onChange={handleInputs}
+                aria-describedby="passwordHelpInline"/>
             </div>
             <div className="col-auto">
                 <span id="passwordHelpInline" className="form-text">
@@ -23,7 +68,10 @@ export default function Studentadmission() {
                 <label for="inputPassword6" className="col-form-label">Roll Number</label>
             </div>
             <div className="col-auto w-15">
-                <input type="text" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
+                <input type="text" name='rollnumber' id="inputPassword6" className="form-control" 
+                value={user.rollnumber}
+                onChange={handleInputs}
+                aria-describedby="passwordHelpInline"/>
             </div>
             <div className="col-auto">
                 <span id="passwordHelpInline" className="form-text">
@@ -36,13 +84,16 @@ export default function Studentadmission() {
         <div>
         <h6>Programme</h6>
         
-        <select className="form-select w-25" aria-label="Default select example" >
+        <select className="form-select w-25" name='programme'
+        value={user.programme}
+        onChange={handleInputs}
+        aria-label="Default select example" >
             <option selected>select</option>
-            <option value="1">B.Tech</option>
-            <option value="2">M.tech</option>
-            <option value="3">M.Sc</option>
-            <option value="4">M.Sc Research</option>
-            <option value="5">Ph.D</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="M.tech">M.tech</option>
+            <option value="M.Sc">M.Sc</option>
+            <option value="M.Sc Research">M.Sc Research</option>
+            <option value="Ph.D">Ph.D</option>
         </select>
         </div>
 
@@ -51,18 +102,24 @@ export default function Studentadmission() {
         <div>
         <h6>Gender</h6>
         
-        <select className="form-select w-25" aria-label="Default select example" >
+        <select className="form-select w-25" name='gender' 
+        value={user.gender}
+        onChange={handleInputs}
+        aria-label="Default select example" >
             <option selected>select</option>
-            <option value="1">Male</option>
-            <option value="2">Female</option>
-            <option value="3">Others</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
         </select>
         </div>
         <br/>
         <form class="row g-3">
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail4"/>
+                <input type="email" name='email' class="form-control"
+                value={user.email}
+                onChange={handleInputs}
+                id="inputEmail4"/>
             </div>
         </form>
         <br/>
@@ -71,7 +128,10 @@ export default function Studentadmission() {
                 <label for="inputPassword6" className="col-form-label">Contact Number</label>
             </div>
             <div className="col-auto">
-                <input type="text" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
+                <input type="text" name='contactnumber' id="inputPassword6" className="form-control" 
+                value={user.contactnumber}
+                onChange={handleInputs}
+                aria-describedby="passwordHelpInline"/>
             </div>
             <div className="col-auto">
                 <span id="passwordHelpInline" className="form-text">
@@ -80,7 +140,7 @@ export default function Studentadmission() {
             </div>
         </div>
         <br/>
-        <button type="button" class="btn btn-primary">Submit</button>
+        <button type="button" class="btn btn-primary" onClick={PostData}>Submit</button>
 
     </>
   )

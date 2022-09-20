@@ -1,6 +1,48 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 export default function Guestadmission() {
+    const [use, setUser] = useState({
+        name:"",gender:"",email:"",contactnumber:"",fromdate:"",todate:""
+    });
+
+    let name, value;
+
+    const handleInputs = (e) => {
+        console.log(e);
+        name = e.target.name;
+        value = e.target.value;
+
+        setUser({...use, [name]:value});
+    }
+
+    const PostData = async (e) => {
+        e.preventDefault();
+
+        const{ name, gender, email, contactnumber, fromdate, todate } = use;
+
+        const res = await fetch("/register", {
+            method: "POST",
+            headers: {
+                "Content-Type" : "application/json"
+            },
+            body:JSON.stringify({
+
+                name, gender, email, contactnumber, fromdate, todate
+            
+            })
+        });
+
+        const data = await res.json();
+
+        if(data.status === 422 || !data){
+            window.alert("Invalid Registration");
+            console.log("Invalid Registration");
+        }else{
+            window.alert("Registration Successful");
+            console.log("Successfull Registration");
+        }
+    }
+
   return (
     <>
         <div className="row g-3 align-items-center">
@@ -8,7 +50,10 @@ export default function Guestadmission() {
                 <label for="inputPassword6" className="col-form-label">Name</label>
             </div>
             <div className="col-auto">
-                <input type="text" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
+                <input type="text" name='name' id="inputPassword6" className="form-control"
+                value={use.name}
+                onChange={handleInputs}
+                aria-describedby="passwordHelpInline"/>
             </div>
             <div className="col-auto">
                 <span id="passwordHelpInline" className="form-text">
@@ -21,18 +66,24 @@ export default function Guestadmission() {
         <div>
         <h6>Gender</h6>
         
-        <select className="form-select w-25" aria-label="Default select example" >
+        <select className="form-select w-25" name='gender'
+        value={use.gender}
+        onChange={handleInputs}
+        aria-label="Default select example" >
             <option selected>select</option>
-            <option value="1">Male</option>
-            <option value="2">Female</option>
-            <option value="3">Others</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
         </select>
         </div>
         <br/>
         <form class="row g-3">
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail4"/>
+                <input type="email" class="form-control" name='email'
+                value={use.email}
+                onChange={handleInputs}
+                id="inputEmail4"/>
             </div>
         </form>
         <br/>
@@ -41,7 +92,10 @@ export default function Guestadmission() {
                 <label for="inputPassword6" className="col-form-label">Contact Number</label>
             </div>
             <div className="col-auto">
-                <input type="text" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
+                <input type="text" id="inputPassword6" className="form-control" name='contactnumber'
+                value={use.contactnumber}
+                onChange={handleInputs}
+                aria-describedby="passwordHelpInline"/>
             </div>
             <div className="col-auto">
                 <span id="passwordHelpInline" className="form-text">
@@ -54,7 +108,10 @@ export default function Guestadmission() {
           <h6>From:</h6>
           <div className="input-group mb-3 w-25">
           <span className="input-group-text" id="basic-addon1">Date</span>
-          <input type="date" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
+          <input type="date" class="form-control" placeholder="Username" name='fromdate'
+          value={use.fromdate}
+          onChange={handleInputs}
+          aria-label="Username" aria-describedby="basic-addon1"/>
           </div>
         </div>
 
@@ -63,12 +120,15 @@ export default function Guestadmission() {
           <h6>To:</h6>
           <div className="input-group mb-3 w-25">
           <span className="input-group-text" id="basic-addon1">Date</span>
-          <input type="date" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
+          <input type="date" class="form-control" placeholder="Username" name='todate'
+          value={use.todate}
+          onChange={handleInputs}
+          aria-label="Username" aria-describedby="basic-addon1"/>
           </div>
         </div>
 
         <br/>
-        <button type="button" class="btn btn-primary">Submit</button>
+        <button type="button" class="btn btn-primary" onClick={PostData}>Submit</button>
     </>
   )
 }

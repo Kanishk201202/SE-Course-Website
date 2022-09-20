@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
     res.send('Hello world from the server router js');
 });
 
-router.post('/register', async (req, res) => {
+router.post('/submit', async (req, res) => {
 
     const { name, gender, email, contactnumber, fromdate, todate } = req.body;
 

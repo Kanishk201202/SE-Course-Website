@@ -20,7 +20,7 @@ export default function Guestadmission() {
 
         const{ name, gender, email, contactnumber, fromdate, todate } = use;
 
-        const res = await fetch("/register", {
+        const res = await fetch("/submit", {
             method: "POST",
             headers: {
                 "Content-Type" : "application/json"

@@ -11,6 +11,7 @@ app.use(express.json());
 app.use(require('./router/auth'));
 app.use(require('./router/auth1'));
 app.use(require('./router/auth2'));
+app.use(require('./router/auth3'));
 
 const PORT = process.env.PORT;
 

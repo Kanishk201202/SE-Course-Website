@@ -1,11 +1,13 @@
 import React from 'react'
 import { a, NavLink } from 'react-router-dom';
+import Navigationbar from '../components/Navigationbar';
 import img1 from './images/10.jpg';
 import img2 from './images/12.jpg';
 import img3 from './images/16.jpeg';
 export default function Hostellogbook() {
   return (
     <>
+    <Navigationbar/>
      <ul className="nav justify-content-center">
             <li className="nav-item">
                 <NavLink className="nav-link active" aria-current="page" to="/studentrecord">Student Records</NavLink>

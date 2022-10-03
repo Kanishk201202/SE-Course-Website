@@ -3,9 +3,11 @@ import { a, NavLink } from 'react-router-dom';
 import img1 from './images/10.jpg';
 import img2 from './images/12.jpg';
 import img3 from './images/16.jpeg';
+import Navigationbar from '../components/Navigationbar';
 export default function Roomallocation() {
   return (
     <>
+    <Navigationbar/>
     <ul className="nav justify-content-center">
             <li className="nav-item">
                 <NavLink className="nav-link active" aria-current="page" to="/studentroom">Students room</NavLink>

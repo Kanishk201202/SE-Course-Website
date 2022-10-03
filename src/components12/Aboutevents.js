@@ -1,8 +1,10 @@
 import React from 'react';
+import Navigationbar from '../components/Navigationbar';
 
 export default function Aboutevents() {
   return (
     <>
+      <Navigationbar />
         <h3>Event Coordinators</h3>
         <table class="table">
       <thead>

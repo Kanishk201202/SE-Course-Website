@@ -1,8 +1,10 @@
 import React from 'react'
+import Navigationbar from '../components/Navigationbar'
 
 export default function technicalclubs() {
   return (
     <>
+       <Navigationbar />
        <div class="row ">
         <div class="col">
             <div className="card text-bg-dark mb-3" style={{"maxWidth": "18rem"}}>

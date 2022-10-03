@@ -1,8 +1,10 @@
 import React from 'react'
+import Navigationbar from '../components/Navigationbar'
 
 export default function Administrativeinterface() {
   return (
     <>
+        <Navigationbar />
         <table class="table">
       <thead>
         <tr>

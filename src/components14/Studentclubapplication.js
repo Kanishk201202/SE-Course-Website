@@ -1,9 +1,11 @@
 import React from 'react'
+import Navigationbar from '../components/Navigationbar'
 
 export default function Studentclubapplication() {
   return (
     <>
-        <h3>Application for Coordinator</h3>
+       <Navigationbar />
+       <h3>Application for Coordinator</h3>
         <br/>
         <div className="row g-3 align-items-center">
             <div className="col-auto">

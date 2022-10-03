@@ -1,7 +1,9 @@
 import React from 'react'
-
+import Navigationbar from '../components/Navigationbar';
 export default function Securitydetails() {
   return (
+    <>
+    <Navigationbar/>
     <table class="table">
       <thead>
         <tr>
@@ -50,5 +52,6 @@ export default function Securitydetails() {
         </tr>
       </tbody>
 </table>
+</>
   )
 }

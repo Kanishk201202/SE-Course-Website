@@ -1,7 +1,10 @@
 import React from 'react'
+import Navigationbar from '../components/Navigationbar'
 
 export default function Medicalhistory() {
   return (
+    <>
+    <Navigationbar />
     <table class="table">
       <thead>
         <tr>
@@ -32,5 +35,6 @@ export default function Medicalhistory() {
         </tr>
       </tbody>
 </table>
+</>
   )
 }

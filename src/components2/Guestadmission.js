@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-
+import Navigationbar from '../components/Navigationbar';
 export default function Guestadmission() {
     const [use, setUser] = useState({
         name:"",gender:"",email:"",contactnumber:"",fromdate:"",todate:""
@@ -45,6 +45,7 @@ export default function Guestadmission() {
 
   return (
     <>
+        <Navigationbar/>
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Name</label>

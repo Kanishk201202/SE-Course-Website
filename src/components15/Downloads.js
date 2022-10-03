@@ -1,9 +1,11 @@
 import React from 'react'
 import { a, NavLink } from 'react-router-dom';
+import Navigationbar from '../components/Navigationbar';
 import img1 from './images/2020.jpg';
 export default function Messregistration() {
   return (
     <>
+        <Navigationbar />
         <ul className="nav justify-content-center">
             <li className="nav-item">
                 <NavLink className="nav-link active" aria-current="page" to="/requesttechnical">Approval request for Technical Project</NavLink>

@@ -62,6 +62,11 @@ import Requestbudget from './components15/Requestbudget';
 import Requestparticipation from './components15/Requestparticipation';
 import Downloads from './components15/Downloads';
 import Home from './components/Home';
+import Loginpage from './components/Loginpage';
+import Studentlogin from './components/Studentlogin';
+import Administrativelogin from './components/Administrativelogin';
+import Guestlogin from './components/Guestlogin';
+import Forgotpassword from './components/Forgotpassword';
 import {
   BrowserRouter as Router,
   Routes,
@@ -70,9 +75,10 @@ import {
 function App() {
   return (
     <Router>
-        <Navigationbar/>
+        
         <div className="container my-3">
         <Routes>
+          <Route exact path="/" element={<Loginpage/>}/>
           <Route exact path="/hostelinventory" element={<Hostelinventory/>} />
           <Route exact path="/hostelwardens" element={<Hostelwardens/>} />
           <Route exact path="/hosteldetailss" element={<Hosteldetails/>} />
@@ -132,7 +138,11 @@ function App() {
           <Route exact path="/requestbudget" element={<Requestbudget/>} />
           <Route exact path="/requestparticipation" element={<Requestparticipation/>} />
           <Route exact path="/download" element={<Downloads/>} />
-          <Route exact path="/" element={<Home/>} />
+          <Route exact path="/home" element={<Home/>} />
+          <Route exact path="/studentlogin" element={<Studentlogin/>} />
+          <Route exact path="/administrativelogin" element={<Administrativelogin/>} />
+          <Route exact path="/guestlogin" element={<Guestlogin/>} />
+          <Route exact path="/forgotpassword" element={<Forgotpassword/>} />
         </Routes>
         </div>
       </Router>

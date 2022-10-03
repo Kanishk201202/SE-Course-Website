@@ -1,7 +1,10 @@
 import React from 'react'
-
+import Navigationbar from '../components/Navigationbar'
 export default function Hostelinventory() {
   return (
+    <>
+    <Navigationbar/>
+
     <table class="table">
       <thead>
         <tr>
@@ -71,5 +74,6 @@ export default function Hostelinventory() {
         </tr>
       </tbody>
 </table>
+</>
   )
 }

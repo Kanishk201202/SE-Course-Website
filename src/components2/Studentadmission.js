@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-
+import Navigationbar from '../components/Navigationbar';
 export default function Studentadmission() {
     const [user, setUser] = useState({
         name:"",rollnumber:"",programme:"",gender:"",email:"",contactnumber:""
@@ -45,6 +45,7 @@ export default function Studentadmission() {
 
   return (
     <>
+        <Navigationbar/>
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Name</label>

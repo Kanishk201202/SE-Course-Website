@@ -1,8 +1,10 @@
 import React from 'react'
+import Navigationbar from '../components/Navigationbar'
 
 export default function Studentclubs() {
   return (
     <>
+    <Navigationbar />
     <div class="row ">
         <div class="col">
             <div className="card text-bg-light mb-3" style={{"maxWidth": "18rem"}}>

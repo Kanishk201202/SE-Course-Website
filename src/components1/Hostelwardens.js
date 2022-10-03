@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Navigationbar from '../components/Navigationbar'
 export default function Hostelwardens() {
   return (
     <>
+    <Navigationbar/>
+
     <h1>Hostel Wardens</h1>
     <table class="table">
       <thead>

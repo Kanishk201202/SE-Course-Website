@@ -1,7 +1,9 @@
 import React from 'react'
-
+import Navigationbar from '../components/Navigationbar';
 export default function Hostelfees() {
   return (
+    <>
+    <Navigationbar/>
     <div class="accordion" id="accordionPanelsStayOpenExample">
       <div class="accordion-item">
         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -40,5 +42,6 @@ export default function Hostelfees() {
       </div>
     </div>
   </div>
+  </>
   )
 }

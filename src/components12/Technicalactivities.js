@@ -1,5 +1,6 @@
 import React from 'react'
 import { a, NavLink } from 'react-router-dom';
+import Navigationbar from '../components/Navigationbar';
 import img1 from './images/101.jpg';
 import img2 from './images/102.jpg';
 import img3 from './images/103.jpg';
@@ -9,6 +10,7 @@ import img6 from './images/106.jpg';
 export default function Technicalactivities() {
   return (
     <>
+        <Navigationbar />
         <ul className="nav justify-content-center">
             <li className="nav-item">
                 <NavLink className="nav-link active" aria-current="page" to="/technicalclubs">Technical Clubs</NavLink>

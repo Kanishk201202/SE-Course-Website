@@ -1,8 +1,10 @@
 import React from 'react'
+import Navigationbar from '../components/Navigationbar'
 
 export default function Electionwithdrawl() {
   return (
     <>
+        <Navigationbar />
         <h3>Election Withdrawl</h3>
     <br/>
     <div className="row g-3 align-items-center">

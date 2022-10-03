@@ -1,9 +1,11 @@
 import React from 'react'
 import { a, NavLink } from 'react-router-dom';
+import Navigationbar from '../components/Navigationbar';
 import img1 from './images/4545.png';
 export default function GCU() {
   return (
     <>
+        <Navigationbar />
         <ul className="nav justify-content-center">
             <li className="nav-item">
                 <NavLink className="nav-link active" aria-current="page" to="/booksession">Book Session</NavLink>

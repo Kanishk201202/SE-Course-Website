@@ -10,6 +10,7 @@ export default function Studentregistration() {
 
     const handleInputs = (e) => {
         console.log(e);
+    
         name = e.target.name;
         value = e.target.value;
 

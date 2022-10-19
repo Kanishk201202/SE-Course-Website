@@ -14,25 +14,19 @@ export default function StudentA() {
         <br/>
         <ul className="nav justify-content-center">
             <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/studentclubs">Student Clubs</NavLink>
+                <NavLink className="nav-link active" aria-current="page" to="/studentclubsa">Student Clubs</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/studentclubapplication">Student Club Application</NavLink>
+                <NavLink className="nav-link" to="/studentclubapplicationa">Student Club Application</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/studentclubsubscription">Student Club Subscription</NavLink>
+                <NavLink className="nav-link" to="/studentclubsubscriptiona">Student Club Subscription</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/electionregistration">Nomination for Election</NavLink>
+                <NavLink className="nav-link" to="/electionwithdrawla">Withdrawl from election</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/electionwithdrawl">Withdrawl from election</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="/castevote">Caste Vote</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="/electionresult">Election Result</NavLink>
+                <NavLink className="nav-link" to="/electionresulta">Election Result</NavLink>
             </li>
         </ul>
         <h1>Student Clubs</h1>

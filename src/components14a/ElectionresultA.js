@@ -1,10 +1,10 @@
 import React from 'react'
-import Navigationbar from '../components/Navigationbar'
+import Navigationbar1 from '../components/Navigationbar1'
 
-export default function Electionresult() {
+export default function ElectionresultA() {
   return (
     <>
-        <Navigationbar />
+        <Navigationbar1/>
         <br/>
         <table class="table">
       <thead>

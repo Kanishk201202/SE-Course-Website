@@ -9,19 +9,16 @@ export default function GcuA() {
         <br/>
         <ul className="nav justify-content-center">
             <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/booksession">Book Session</NavLink>
+                <NavLink className="nav-link" to="/registerissuea">Register Issue</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/registerissue">Register Issue</NavLink>
+                <NavLink className="nav-link" to="/administartiveinterfacea">Administrative Interface</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/administartiveinterface">Administrative Interface</NavLink>
+                <NavLink className="nav-link" to="/councellorinterfacea">Councellor Interface</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/councellorinterface">Councellor Interface</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="/registeredstudents">Registered Students</NavLink>
+                <NavLink className="nav-link" to="/registeredstudentsa">Registered Students</NavLink>
             </li>
         </ul>
 

@@ -1,12 +1,10 @@
-import React from 'react'
-import Navigationbar from '../components/Navigationbar'
+import React from 'react';
+import Navigationbar1 from '../components/Navigationbar1';
 
-export default function Studentclubapplication() {
+export default function StudentclubsubscriptionA() {
   return (
     <>
-       <Navigationbar />
-       <br/>
-       <h3>Application for Coordinator</h3>
+        <Navigationbar1/>
         <br/>
         <div className="row g-3 align-items-center">
             <div className="col-auto">
@@ -63,7 +61,7 @@ export default function Studentclubapplication() {
         <h6>Clubs</h6>
         
         <select className="form-select w-25" aria-label="Default select example" >
-            <option selected>select</option>
+        <option selected>select</option>
             <option value="1">Actomania</option>
             <option value="2">Artista</option>
             <option value="3">Aranya</option>
@@ -78,21 +76,6 @@ export default function Studentclubapplication() {
         </div>
         <br/>
         <button type="button" class="btn btn-primary">Submit</button>
-        <br/>
-        <br/>
-        <br/>
-        <div class="row ">
-        <div class="col">
-            <div className="card text-bg-dark mb-3" style={{"maxWidth": "18rem"}}>
-                <div className="card-header">Dean of Student Affairs IITTP</div>
-                <div className="card-body">
-                  <h5 className="card-title">Contact</h5>
-                  <p className="card-text">dean_sa@iittp.ac.in</p>
-                </div>
-            </div>
-          </div>
-         </div> 
-
     </>
   )
 }

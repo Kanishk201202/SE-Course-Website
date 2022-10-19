@@ -93,6 +93,11 @@ import TechnicaleventsA from './components12a/TechnicaleventsA';
 import FeedbackA from './components12a/FeedbackA';
 import WorkshopregistrationA from './components12a/WorkshopregistrationA';
 import AdministrativeinterfaceA from './components13a/AdministrativeinterfaceA';
+import CouncellorinterfaceA from './components13a/CouncellorinterfaceA';
+import GcuA from './components13a/GcuA';
+import RegisteredstudentsA from './components13a/RegisteredstudentsA';
+import RegisterissueA from './components13a/RegisterissueA';
+
 import Home1 from './components/Home1';
 import {
   BrowserRouter as Router,
@@ -196,6 +201,17 @@ function App() {
           <Route exact path="/technicalactivitiesa" element={<TechnicalactivitiesA/>} />
           <Route exact path="/technicalclubsa" element={<TechnicalclubsA/>} />
           <Route exact path="/feedbacka" element={<FeedbackA/>} />
+          <Route exact path="/gcua" element={<GcuA/>} />
+          <Route exact path="/registerissuea" element={<RegisterissueA/>}/>
+          <Route exact path="/administartiveinterfacea" element={<AdministrativeinterfaceA/>} />
+          <Route exact path="/councellorinterfacea" element={<CouncellorinterfaceA/>} />
+          <Route exact path="/registeredstudentsa" element={<RegisteredstudentsA/>} />
+          <Route exact path="/student" element={<Student/>} />
+          <Route exact path="/studentclubs" element={<Studentclubs/>} />
+          <Route exact path="/studentclubapplication" element={<Studentclubapplication/>}/>
+          <Route exact path="/studentclubsubscription" element={<Studentclubsubscription/>} />
+          <Route exact path="/electionregistration" element={<Electionregistration/>} />
+          <Route exact path="/electionresult" element={<Electionresult/>} />
         </Routes>
         </div>
       </Router>

@@ -1,12 +1,12 @@
 import React from 'react'
-import Navigationbar from '../components/Navigationbar'
+import Navigationbar1 from '../components/Navigationbar1'
 
-export default function Electionwithdrawl() {
+export default function ElectionregistrationA() {
   return (
     <>
-        <Navigationbar />
-        <br/>
-        <h3>Election Withdrawl</h3>
+    <Navigationbar1/>
+    <br/>
+    <h3>Nomination for election</h3>
     <br/>
     <div className="row g-3 align-items-center">
         <div className="col-auto">
@@ -103,6 +103,6 @@ export default function Electionwithdrawl() {
     </div>
     <br/>
     <button type="button" class="btn btn-primary">Submit</button>
-    </>
+</>
   )
 }

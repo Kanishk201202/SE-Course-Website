@@ -2,7 +2,7 @@ import React from 'react'
 import { a, NavLink } from 'react-router-dom';
 import Navigationbar from '../components/Navigationbar';
 import img1 from './images/4545.png';
-export default function GCU() {
+export default function Gcu() {
   return (
     <>
         <Navigationbar />

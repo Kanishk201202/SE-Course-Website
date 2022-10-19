@@ -1,16 +1,16 @@
 import React from 'react'
 import { a, NavLink } from 'react-router-dom';
-import Navigationbar from '../components/Navigationbar';
+import Navigationbar1 from '../components/Navigationbar1';
 import img1 from './images/10001.jpg';
 import img2 from './images/10002.png';
 import img3 from './images/10003.jpg';
 import img4 from './images/10004.jpg';
 import img5 from './images/10005.jpg';
 import img6 from './images/10006.jpg';
-export default function Student() {
+export default function StudentA() {
   return (
     <>
-        <Navigationbar />
+        <Navigationbar1/>
         <br/>
         <ul className="nav justify-content-center">
             <li className="nav-item">

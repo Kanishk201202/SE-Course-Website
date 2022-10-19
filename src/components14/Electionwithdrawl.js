@@ -5,6 +5,7 @@ export default function Electionwithdrawl() {
   return (
     <>
         <Navigationbar />
+        <br/>
         <h3>Election Withdrawl</h3>
     <br/>
     <div className="row g-3 align-items-center">

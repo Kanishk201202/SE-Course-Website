@@ -6,7 +6,7 @@ export default function Guestlogin() {
        <div className="Auth-form-container">
       <form className="Auth-form">
         <div className="Auth-form-content">
-          <h3 className="Auth-form-title">Sign In</h3>
+          <h3 className="Auth-form-title">Guest Sign In</h3>
           <div className="form-group mt-3">
             <label>Email address</label>
             <input
@@ -31,7 +31,7 @@ export default function Guestlogin() {
             </NavLink>
           </div>
           <p className="forgot-password text-right mt-2">
-            Forgot <NavLink to="/forgotpassword">password?</NavLink>
+           <NavLink to="/forgotpassword"> Forgot password?</NavLink>
           </p>
         </div>
       </form>

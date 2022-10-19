@@ -11,6 +11,7 @@ export default function Technicalactivities() {
   return (
     <>
         <Navigationbar />
+        <br/>
         <ul className="nav justify-content-center">
             <li className="nav-item">
                 <NavLink className="nav-link active" aria-current="page" to="/technicalclubs">Technical Clubs</NavLink>

@@ -6,6 +6,7 @@ export default function Visitorslogbook() {
     return (
     <>
         <Navigationbar/>
+        <br/>
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Name</label>

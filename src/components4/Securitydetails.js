@@ -4,6 +4,7 @@ export default function Securitydetails() {
   return (
     <>
     <Navigationbar/>
+    <br/>
     <table class="table">
       <thead>
         <tr>

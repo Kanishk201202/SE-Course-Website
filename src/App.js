@@ -1,8 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Navigationbar from './components/Navigationbar';
+
 import React, {useState} from 'react';
-import Roomoccupancydetails from './components1/Roomoccupancydetails';
 import Hostelstaffs from './components1/Hostelstaffs';
 import Hosteldetails from './components1/Hosteldetails';
 import Hostelinventory from './components1/Hostelinventory';
@@ -67,6 +66,34 @@ import Studentlogin from './components/Studentlogin';
 import Administrativelogin from './components/Administrativelogin';
 import Guestlogin from './components/Guestlogin';
 import Forgotpassword from './components/Forgotpassword';
+import HosteldetailsA from './components1a/HosteldetailsA';
+import HostelstaffsA from './components1a/HostelstaffsA';
+import HostelwardensA from './components1a/HostelwardensA';
+import HostelinventoryA from './components1a/HostelinventoryA';
+import HostelfeesA from './components2a/HostelfeesA';
+import HostelinformationA from './components2a/HostelinformationA';
+import HosteladmissionA from './components2a/HosteladmissionA';
+import HostellogbookA from './components4a/HostellogbookA';
+import SecuritydetailsA from './components4a/SecuritydetailsA';
+import VisitorslogbookA from './components4a/VisitorslogbookA';
+import MessqueryA from './components6a/MessqueryA';
+import EudepartmentA from './components6a/EudepartmentA';
+import CcdepartmentA from './components6a/CcdepartmentA';
+import HostelqueryA from './components6a/HostelqueryA';
+import MedicalA from './components7a/MedicalA';
+import BookappointmentA from './components7a/BookappointmentA';
+import MedvisitsA from './components7a/MedvisitsA';
+import AmmendconstitutionA from './components11a/AmmendconstitutionA';
+import ConstitutionA from './components11a/ConstitutionA';
+import StudentconstitutionA from './components11a/StudentconstitutionA';
+import AbouteventsA from './components12a/AbouteventsA';
+import TechnicalactivitiesA from './components12a/TechnicalactivitiesA';
+import TechnicalclubsA from './components12a/TechnicalclubsA';
+import TechnicaleventsA from './components12a/TechnicaleventsA';
+import FeedbackA from './components12a/FeedbackA';
+import WorkshopregistrationA from './components12a/WorkshopregistrationA';
+import AdministrativeinterfaceA from './components13a/AdministrativeinterfaceA';
+import Home1 from './components/Home1';
 import {
   BrowserRouter as Router,
   Routes,
@@ -81,9 +108,8 @@ function App() {
           <Route exact path="/" element={<Loginpage/>}/>
           <Route exact path="/hostelinventory" element={<Hostelinventory/>} />
           <Route exact path="/hostelwardens" element={<Hostelwardens/>} />
-          <Route exact path="/hosteldetailss" element={<Hosteldetails/>} />
+          <Route exact path="/hosteldetails" element={<Hosteldetails/>} />
           <Route exact path="/hostelstaffs" element={<Hostelstaffs/>} />
-          <Route exact path="/roomocupancy" element={<Roomoccupancydetails/>} />
           <Route exact path="/hosteladmission" element={<Hosteladmission/>} />
           <Route exact path="/studentadmission" element={<Studentadmission/>} />
           <Route exact path="/guestadmission" element={<Guestadmission/>} />
@@ -143,6 +169,33 @@ function App() {
           <Route exact path="/administrativelogin" element={<Administrativelogin/>} />
           <Route exact path="/guestlogin" element={<Guestlogin/>} />
           <Route exact path="/forgotpassword" element={<Forgotpassword/>} />
+          <Route exact path="/home1" element={<Home1/>} />
+          <Route exact path="/hosteldetailsa" element={<HosteldetailsA/>} />
+          <Route exact path="/hostelinventorya" element={<HostelinventoryA/>} />
+          <Route exact path="/hostelwardensa" element={<HostelwardensA/>} />
+          <Route exact path="/hostelstaffsa" element={<HostelstaffsA/>} />
+          <Route exact path="/hosteladmissiona" element={<HosteladmissionA/>} />
+          <Route exact path="/hostelfeesa" element={<HostelfeesA/>} />
+          <Route exact path="/hostelinformationa" element={<HostelinformationA/>} />
+          <Route exact path="/hostellogbooka" element={<HostellogbookA/>} />
+          <Route exact path="/visitorslogbooka" element={<VisitorslogbookA/>} />
+          <Route exact path="/securitydetailsa" element={<SecuritydetailsA/>} />
+          <Route exact path="/hostelquerya" element={<HostelqueryA/>} />
+          <Route exact path="/ccdepartmenta" element={<CcdepartmentA/>} />
+          <Route exact path="/eudepartmenta" element={<EudepartmentA/>} />
+          <Route exact path="/messquerya" element={<MessqueryA/>} />
+          <Route exact path="/bookappointmenta" element={<BookappointmentA/>} />
+          <Route exact path="/medvisitsa" element={<MedvisitsA/>} />
+          <Route exact path="/medicalservicea" element={<MedicalA/>} />
+          <Route exact path="/ammendconstitutiona" element={<AmmendconstitutionA/>} />
+          <Route exact path="/studentconstitutiona" element={<StudentconstitutionA/>} />
+          <Route exact path="/constitutiona" element={<ConstitutionA/>} />
+          <Route exact path="/workshopregistrationa" element={<WorkshopregistrationA/>} />
+          <Route exact path="/abouteventsa" element={<AbouteventsA/>} />
+          <Route exact path="/technicaleventsa" element={<TechnicaleventsA/>} />
+          <Route exact path="/technicalactivitiesa" element={<TechnicalactivitiesA/>} />
+          <Route exact path="/technicalclubsa" element={<TechnicalclubsA/>} />
+          <Route exact path="/feedbacka" element={<FeedbackA/>} />
         </Routes>
         </div>
       </Router>

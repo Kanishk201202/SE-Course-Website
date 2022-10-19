@@ -5,6 +5,7 @@ export default function Ccdepartment() {
   return (
   <>
     <Navigationbar />
+    <br/>
     <h>Computer Centre (CC) is responsible for maintaining the software developments, central computing and networking infrastructure of IIT Tirupati. The computing facility primarily involves PC and workstation labs running both general and special-purpose software which used for holding lab classNamees of different departments. Networking services provided by CC includes wired and wireless internet access spanning the entire institute, a centralized mail messaging service, and several other ancillary services.
 
     </h>

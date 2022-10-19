@@ -5,6 +5,7 @@ export default function Aboutevents() {
   return (
     <>
       <Navigationbar />
+      <br/>
         <h3>Event Coordinators</h3>
         <table class="table">
       <thead>

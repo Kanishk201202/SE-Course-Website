@@ -16,7 +16,7 @@ export default function Navigationbar() {
                         Hostel Affairs
                     </NavLink>
                     <ul className="dropdown-menu">
-                        <li><NavLink className="dropdown-item" to="/hosteldetailss">Hostel Details</NavLink></li>
+                        <li><NavLink className="dropdown-item" to="/hosteldetails">Hostel Details</NavLink></li>
                         <li><NavLink className="dropdown-item" to="/hosteladmission">Hostel Admission</NavLink></li>
                         <li><NavLink className="dropdown-item" to="/roomallotment">Room Allotment</NavLink></li>
                         <li><NavLink className="dropdown-item" to="/hostellogbook">Hostel Logbook</NavLink></li>

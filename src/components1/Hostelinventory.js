@@ -4,7 +4,7 @@ export default function Hostelinventory() {
   return (
     <>
     <Navigationbar/>
-
+    <br/>
     <table class="table">
       <thead>
         <tr>

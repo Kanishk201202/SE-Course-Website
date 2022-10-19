@@ -5,6 +5,7 @@ export default function Electionregistration() {
   return (
     <>
     <Navigationbar />
+    <br/>
     <h3>Nomination for election</h3>
     <br/>
     <div className="row g-3 align-items-center">

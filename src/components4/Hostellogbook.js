@@ -8,6 +8,7 @@ export default function Hostellogbook() {
   return (
     <>
     <Navigationbar/>
+    <br/>
      <ul className="nav justify-content-center">
             <li className="nav-item">
                 <NavLink className="nav-link active" aria-current="page" to="/studentrecord">Student Records</NavLink>

@@ -5,6 +5,7 @@ export default function Councellorinterface() {
   return (
     <>
     <Navigationbar />
+    <br/>
     <table class="table">
       <thead>
         <tr>

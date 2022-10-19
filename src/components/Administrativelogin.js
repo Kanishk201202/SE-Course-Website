@@ -6,7 +6,7 @@ export default function Administrativelogin() {
         <div className="Auth-form-container">
       <form className="Auth-form">
         <div className="Auth-form-content">
-          <h3 className="Auth-form-title">Sign In</h3>
+          <h3 className="Auth-form-title">Administrative Sign In</h3>
           <div className="form-group mt-3">
             <label>Email address</label>
             <input
@@ -24,14 +24,14 @@ export default function Administrativelogin() {
             />
           </div>
           <div className="d-grid gap-2 mt-3">
-            <NavLink to="/home">
+            <NavLink to="/home1">
             <button type="submit" className="btn btn-primary">
               Submit
             </button>
             </NavLink>
           </div>
           <p className="forgot-password text-right mt-2">
-            Forgot <NavLink to="/forgotpassword">password?</NavLink>
+           <NavLink to="/forgotpassword"> Forgot password?</NavLink>
           </p>
         </div>
       </form>

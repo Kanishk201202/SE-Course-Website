@@ -4,7 +4,7 @@ export default function Hostelwardens() {
   return (
     <>
     <Navigationbar/>
-
+    <br/>
     <h1>Hostel Wardens</h1>
     <table class="table">
       <thead>

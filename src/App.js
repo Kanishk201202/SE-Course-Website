@@ -121,6 +121,8 @@ import GuestroomG from './components3g/GuestroomG';
 import RoomallocationG from './components3g/RoomallocationG';
 import GuestregistartionG from './components5g/GuestregistrationG';
 import MessregistrationG from './components5g/MessregistrationG';
+import HostelqueryG from './components6g/HostelqueryG';
+import MessqueryG from './components6g/MessqueryG';
 import {
   BrowserRouter as Router,
   Routes,
@@ -251,6 +253,8 @@ function App() {
           <Route exact path="/guestroomg" element={<GuestroomG/>} />
           <Route exact path="/messregistrationg" element={<MessregistrationG/>} />
           <Route exact path="/guestregistrationg" element={<GuestregistartionG/>} />
+          <Route exact path="/hostelqueryg" element={<HostelqueryG/>} />
+          <Route exact path="/messqueryg" element={<MessqueryG/>} />
         </Routes>
         </div>
       </Router>

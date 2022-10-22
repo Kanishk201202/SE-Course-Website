@@ -1,21 +1,15 @@
 import React from 'react'
 import { a, NavLink } from 'react-router-dom';
-import Navigationbar from '../components/Navigationbar';
+import Navigationbar2 from '../components/Navigationbar2';
 import img1 from './images/20.jpeg';
 import img2 from './images/21.jpeg';
 import img3 from './images/22.jpeg';
-export default function Hostelquery() {
+export default function HostelqueryG() {
   return (
     <>
-        <Navigationbar />
+        <Navigationbar2/>
         <br/>
         <ul className="nav justify-content-center">
-            <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/ccdepartment">CC Department</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="/eudepartment">EU Department</NavLink>
-            </li>
             <li className="nav-item">
                 <NavLink className="nav-link" to="/messquery">Mess Query</NavLink>
             </li>

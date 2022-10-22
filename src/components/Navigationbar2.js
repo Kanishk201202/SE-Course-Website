@@ -19,8 +19,7 @@ export default function Navigationbar() {
                         <li><NavLink className="dropdown-item" to="/hosteldetailsg">Hostel Details</NavLink></li>
                         <li><NavLink className="dropdown-item" to="/hosteladmissiong">Hostel Admission</NavLink></li>
                         <li><NavLink className="dropdown-item" to="/roomallotmentg">Room Allotment</NavLink></li>
-                        <li><NavLink className="dropdown-item" to="/hostellogbook">Hostel Logbook</NavLink></li>
-                        <li><NavLink className="dropdown-item" to="/messregistration">Mess Registration</NavLink></li>
+                        <li><NavLink className="dropdown-item" to="/messregistrationg">Mess Registration</NavLink></li>
                         <li><NavLink className="dropdown-item" to="/hostelquery">Hostel and Mess Queries</NavLink></li>
                         <li><NavLink className="dropdown-item" to="/medicalservice">Medical Service</NavLink></li>
                     </ul>

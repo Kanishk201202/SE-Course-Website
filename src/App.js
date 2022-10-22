@@ -119,6 +119,8 @@ import HostelfeesG from './components2g/HostelfeesG';
 import HostelinformationG from './components2g/HostelinformationG';
 import GuestroomG from './components3g/GuestroomG';
 import RoomallocationG from './components3g/RoomallocationG';
+import GuestregistartionG from './components5g/GuestregistrationG';
+import MessregistrationG from './components5g/MessregistrationG';
 import {
   BrowserRouter as Router,
   Routes,
@@ -247,6 +249,8 @@ function App() {
           <Route exact path="/hostelinformationg" element={<HostelinformationG/>} />
           <Route exact path="/roomallotmentg" element={<RoomallocationG/>} />
           <Route exact path="/guestroomg" element={<GuestroomG/>} />
+          <Route exact path="/messregistrationg" element={<MessregistrationG/>} />
+          <Route exact path="/guestregistrationg" element={<GuestregistartionG/>} />
         </Routes>
         </div>
       </Router>

@@ -23,7 +23,7 @@ export default function StudentA() {
                 <NavLink className="nav-link" to="/studentclubsubscriptiona">Student Club Subscription</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/electionwithdrawla">Withdrawl from election</NavLink>
+                <NavLink className="nav-link" to="/electionregistrationa">Registered students for election</NavLink>
             </li>
             <li className="nav-item">
                 <NavLink className="nav-link" to="/electionresulta">Election Result</NavLink>

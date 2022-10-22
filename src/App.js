@@ -132,7 +132,6 @@ import TechnicaleventsG from './components12g/TechnicaleventsG';
 import StudentG from './components14g/StudentG';
 import StudentclubsG from './components14g/StudentclubsG';
 import StudentclubsubscriptionG from './components14g/StudentclubsubscriptionG';
-import 
 import {
   BrowserRouter as Router,
   Routes,

@@ -1,27 +1,21 @@
 import React from 'react'
 import { a, NavLink } from 'react-router-dom';
-import Navigationbar from '../components/Navigationbar';
+import Navigationbar2 from '../components/Navigationbar2';
 import img1 from './images/31.jpeg';
 import img2 from './images/32.jpeg';
 import img3 from './images/33.jpeg';
 import img4 from './images/34.jpeg';
 import img5 from './images/35.jpeg';
 import img6 from './images/36.jpeg';
-export default function Medical() {
+export default function MedicalG() {
     
   return (
     <>
-        <Navigationbar />
+        <Navigationbar2/>
         <br/>
         <ul className="nav justify-content-center">
             <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/bookappointment">Book Appointment</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="/medicalhistory">Medical History</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="/medvisits">Medvisits</NavLink>
+                <NavLink className="nav-link active" aria-current="page" to="/bookappointmentg">Book Appointment</NavLink>
             </li>
         </ul>
         <div classNameName="container my-3 w-75">

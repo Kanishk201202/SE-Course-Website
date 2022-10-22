@@ -21,7 +21,7 @@ export default function Navigationbar() {
                         <li><NavLink className="dropdown-item" to="/roomallotmentg">Room Allotment</NavLink></li>
                         <li><NavLink className="dropdown-item" to="/messregistrationg">Mess Registration</NavLink></li>
                         <li><NavLink className="dropdown-item" to="/hostelqueryg">Hostel and Mess Queries</NavLink></li>
-                        <li><NavLink className="dropdown-item" to="/medicalservice">Medical Service</NavLink></li>
+                        <li><NavLink className="dropdown-item" to="/medicalserviceg">Medical Service</NavLink></li>
                     </ul>
                 </li>
                 <li className="nav-item dropdown">

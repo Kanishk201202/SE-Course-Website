@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import Navigationbar from '../components/Navigationbar';
-export default function Guestadmission() {
+import Navigationbar2 from '../components/Navigationbar2';
+export default function GuestadmissionG() {
     const [use, setUser] = useState({
         name:"",gender:"",email:"",contactnumber:"",fromdate:"",todate:""
     });
@@ -45,7 +45,7 @@ export default function Guestadmission() {
 
   return (
     <>
-        <Navigationbar/>
+        <Navigationbar2/>
         <br/>
         <div className="row g-3 align-items-center">
             <div className="col-auto">

@@ -1,9 +1,9 @@
 import React from 'react'
-import Navigationbar from '../components/Navigationbar';
-export default function Hostelinformation() {
+import Navigationbar2 from '../components/Navigationbar2';
+export default function HostelinformationG() {
   return (
     <>
-    <Navigationbar/>
+    <Navigationbar2/>
     <br/>
     <div class="alert alert-warning alert-dismissible fade show" role="alert">
       <strong>For more details check in Hostel Details section of the website.</strong> 

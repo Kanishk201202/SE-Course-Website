@@ -3,24 +3,21 @@ import { a, NavLink } from 'react-router-dom';
 import img1 from './images/10.jpg';
 import img2 from './images/12.jpg';
 import img3 from './images/16.jpeg';
-import Navigationbar from '../components/Navigationbar';
-export default function Hosteladmission() {
+import Navigationbar2 from '../components/Navigationbar2';
+export default function HosteladmissionG() {
   return (
     <>
-        <Navigationbar/>
+        <Navigationbar2/>
         <br/>
         <ul className="nav justify-content-center">
             <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/studentadmission">Student Admission</NavLink>
+                <NavLink className="nav-link" to="/guestadmissiong">Guest Admission</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/guestadmission">Guest Admission</NavLink>
+                <NavLink className="nav-link" to="/hostelfeesg">Hostel Fees</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/hostelfees">Hostel Fees</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="/hostelinformation">Hostel Information</NavLink>
+                <NavLink className="nav-link" to="/hostelinformationg">Hostel Information</NavLink>
             </li>
         </ul>
         <div classNameName="container my-3 w-75">

@@ -1,9 +1,9 @@
 import React from 'react'
-import Navigationbar from '../components/Navigationbar';
-export default function Hostelfees() {
+import Navigationbar2 from '../components/Navigationbar2';
+export default function HostelfeesG() {
   return (
     <>
-    <Navigationbar/>
+    <Navigationbar2/>
     <br/>
     <div class="accordion" id="accordionPanelsStayOpenExample">
       <div class="accordion-item">

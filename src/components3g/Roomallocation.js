@@ -11,13 +11,7 @@ export default function Roomallocation() {
     <br/>
     <ul className="nav justify-content-center">
             <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/studentroom">Students room</NavLink>
-            </li>
-            <li className="nav-item">
                 <NavLink className="nav-link" to="/guestroom">Guest Room</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="/changeroom">Change Room</NavLink>
             </li>
             <li className="nav-item">
                 <NavLink className="nav-link" to="/vacatingroom">Vacating Room</NavLink>

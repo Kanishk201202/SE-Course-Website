@@ -113,6 +113,10 @@ import HosteldetailsG from './components1g/HosteldetailsG';
 import HostelinventoryG from './components1g/HostelinventoryG';
 import HostelstaffsG from './components1g/HostelstaffsG';
 import HostelwardensG from './components1g/HostelwardensG';
+import GuestadmissionG from './components2g/GuestadmissionG';
+import HosteladmissionG from './components2g/HosteladmissionG';
+import HostelfeesG from './components2g/HostelfeesG';
+import HostelinformationG from './components2g/HostelinformationG';
 import {
   BrowserRouter as Router,
   Routes,
@@ -235,6 +239,10 @@ function App() {
           <Route exact path="/hostelinventoryg" element={<HostelinventoryG/>} />
           <Route exact path="/hostelwardensg" element={<HostelwardensG/>} />
           <Route exact path="/hostelstaffsg" element={<HostelstaffsG/>} />
+          <Route exact path="/hosteladmissiong" element={<HosteladmissionG/>} />
+          <Route exact path="/guestadmissiong" element={<GuestadmissionG/>} />
+          <Route exact path="/hostelfeesg" element={<HostelfeesG/>} />
+          <Route exact path="/hostelinformationg" element={<HostelinformationG/>} />
         </Routes>
         </div>
       </Router>

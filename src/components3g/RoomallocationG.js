@@ -3,18 +3,15 @@ import { a, NavLink } from 'react-router-dom';
 import img1 from './images/10.jpg';
 import img2 from './images/12.jpg';
 import img3 from './images/16.jpeg';
-import Navigationbar from '../components/Navigationbar';
-export default function Roomallocation() {
+import Navigationbar2 from '../components/Navigationbar2';
+export default function RoomallocationG() {
   return (
     <>
-    <Navigationbar/>
+    <Navigationbar2/>
     <br/>
     <ul className="nav justify-content-center">
             <li className="nav-item">
-                <NavLink className="nav-link" to="/guestroom">Guest Room</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="/vacatingroom">Vacating Room</NavLink>
+                <NavLink className="nav-link" to="/guestroomg">Guest Room</NavLink>
             </li>
         </ul>
         <div classNameName="container my-3 w-75">

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import Navigationbar from '../components/Navigationbar';
-export default function Guestroom() {
+import Navigationbar2 from '../components/Navigationbar2';
+export default function GuestroomG() {
     const [uses, setUser] = useState({
         name:"",gender:"",email:"",contactnumber:""
     });
@@ -44,7 +44,7 @@ export default function Guestroom() {
     }
   return (
     <>
-        <Navigationbar/>
+        <Navigationbar2/>
         <br/>
         <div className="row g-3 align-items-center">
             <div className="col-auto">

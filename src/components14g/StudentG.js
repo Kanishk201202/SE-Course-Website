@@ -1,38 +1,23 @@
 import React from 'react'
 import { a, NavLink } from 'react-router-dom';
-import Navigationbar from '../components/Navigationbar';
+import Navigationbar2 from '../components/Navigationbar2';
 import img1 from './images/10001.jpg';
 import img2 from './images/10002.png';
 import img3 from './images/10003.jpg';
 import img4 from './images/10004.jpg';
 import img5 from './images/10005.jpg';
 import img6 from './images/10006.jpg';
-export default function Student() {
+export default function StudentG() {
   return (
     <>
-        <Navigationbar />
+        <Navigationbar2/>
         <br/>
         <ul className="nav justify-content-center">
             <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/studentclubs">Student Clubs</NavLink>
+                <NavLink className="nav-link active" aria-current="page" to="/studentclubsg">Student Clubs</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/studentclubapplication">Student Club Application</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="/studentclubsubscription">Student Club Subscription</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="/electionregistration">Nomination for Election</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="/electionwithdrawl">Withdrawl from election</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="/castevote">Caste Vote</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="/electionresult">Election Result</NavLink>
+                <NavLink className="nav-link" to="/studentclubsubscriptiong">Student Club Subscription</NavLink>
             </li>
         </ul>
         <h1>Student Clubs</h1>

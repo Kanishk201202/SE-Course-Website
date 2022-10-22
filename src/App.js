@@ -129,6 +129,10 @@ import FeedbackG from './components12g/FeedbackG';
 import TechnicalactivitiesG from './components12g/TechnicalactivitiesG';
 import TechnicalclubsG from './components12g/TechnicalclubsG';
 import TechnicaleventsG from './components12g/TechnicaleventsG';
+import StudentG from './components14g/StudentG';
+import StudentclubsG from './components14g/StudentclubsG';
+import StudentclubsubscriptionG from './components14g/StudentclubsubscriptionG';
+import 
 import {
   BrowserRouter as Router,
   Routes,
@@ -267,7 +271,10 @@ function App() {
           <Route exact path="/technicalactivitiesg" element={<TechnicalactivitiesG/>} />
           <Route exact path="/technicalclubsg" element={<TechnicalclubsG/>} />
           <Route exact path="/feedbackg" element={<FeedbackG/>} />
-          
+          <Route exact path="/studentg" element={<StudentG/>} />
+          <Route exact path="/studentclubsg" element={<StudentclubsG/>} />
+          <Route exact path="/studentclubsubscriptiong" element={<StudentclubsubscriptionG/>} />
+
         </Routes>
         </div>
       </Router>

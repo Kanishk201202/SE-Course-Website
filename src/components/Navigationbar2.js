@@ -30,8 +30,7 @@ export default function Navigationbar() {
                     </NavLink>
                     <ul className="dropdown-menu">
                       <li><NavLink className="dropdown-item" to="/technicalactivitiesg">Technical Activities</NavLink></li>
-                      <li><NavLink className="dropdown-item" to="/gcu">GCU</NavLink></li>
-                      <li><NavLink className="dropdown-item" to="/student">Student Clubs and Elections</NavLink></li>
+                      <li><NavLink className="dropdown-item" to="/studentg">Student Clubs</NavLink></li>
                       <li><NavLink className="dropdown-item" to="/download">Downloads</NavLink></li>
                     </ul>
                 </li>

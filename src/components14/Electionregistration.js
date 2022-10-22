@@ -4,7 +4,7 @@ import Navigationbar from '../components/Navigationbar'
 export default function Electionregistration() {
   return (
     <>
-    <Navigationbar />
+    <Navigationbar/>
     <br/>
     <h3>Nomination for election</h3>
     <br/>

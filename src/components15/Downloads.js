@@ -2,10 +2,10 @@ import React from 'react'
 import { a, NavLink } from 'react-router-dom';
 import Navigationbar from '../components/Navigationbar';
 import img1 from './images/2020.jpg';
-export default function Messregistration() {
+export default function Downloads() {
   return (
     <>
-        <Navigationbar />
+        <Navigationbar/>
         <br/>
         <ul className="nav justify-content-center">
             <li className="nav-item">

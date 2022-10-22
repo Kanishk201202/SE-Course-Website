@@ -103,7 +103,12 @@ import StudentA from './components14a/StudentA';
 import StudentclubapplicationA from './components14a/StudentclubapplicationA';
 import StudentclubsA from './components14a/StudentclubsA';
 import StudentclubsubscriptionA from './components14a/StudentclubsubscriptionA';
+import DownloadsA from './components15a/DownloadsA';
+import RequestbudgetA from './components15a/RequestbudgetA';
+import RequestparticipationA from './components15a/RequestparticipationA';
+import RequesttechnicalA from './components15a/RequesttechnicalA';
 import Home1 from './components/Home1';
+import Home2 from './components/Home2';
 import {
   BrowserRouter as Router,
   Routes,
@@ -173,7 +178,7 @@ function App() {
           <Route exact path="/requesttechnical" element={<Requesttechnical/>} />
           <Route exact path="/requestbudget" element={<Requestbudget/>} />
           <Route exact path="/requestparticipation" element={<Requestparticipation/>} />
-          <Route exact path="/download" element={<Downloads/>} />
+          <Route exact path="/downloads" element={<Downloads/>} />
           <Route exact path="/home" element={<Home/>} />
           <Route exact path="/studentlogin" element={<Studentlogin/>} />
           <Route exact path="/administrativelogin" element={<Administrativelogin/>} />
@@ -217,6 +222,11 @@ function App() {
           <Route exact path="/studentclubsubscriptiona" element={<StudentclubsubscriptionA/>} />
           <Route exact path="/electionregistrationa" element={<ElectionregistrationA/>} />
           <Route exact path="/electionresulta" element={<ElectionresultA/>} />
+          <Route exact path="/requesttechnicala" element={<RequesttechnicalA/>} />
+          <Route exact path="/requestbudgeta" element={<RequestbudgetA/>} />
+          <Route exact path="/requestparticipationa" element={<RequestparticipationA/>} />
+          <Route exact path="/downloadsa" element={<DownloadsA/>} />
+          <Route exact path="/home2" element={<Home2/>} />
         </Routes>
         </div>
       </Router>

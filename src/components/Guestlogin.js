@@ -24,7 +24,7 @@ export default function Guestlogin() {
             />
           </div>
           <div className="d-grid gap-2 mt-3">
-            <NavLink to="/home">
+            <NavLink to="/home2">
             <button type="submit" className="btn btn-primary">
               Submit
             </button>

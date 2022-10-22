@@ -1,12 +1,12 @@
 import React from 'react';
 import Navigationbar from '../components/Navigationbar';
 import img1 from './images/2020.jpg';
-export default function Visitorslogbook() {
+export default function Requestbudget() {
 
     
     return (
     <>
-        <Navigationbar />
+        <Navigationbar/>
         <br/>
         Hehe Cato
         <br/>

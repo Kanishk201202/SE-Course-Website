@@ -4,7 +4,7 @@ import Navigationbar from '../components/Navigationbar'
 export default function Technicalclubs() {
   return (
     <>
-       <Navigationbar />
+       <Navigationbar/>
        <br/>
        <div class="row ">
         <div class="col">

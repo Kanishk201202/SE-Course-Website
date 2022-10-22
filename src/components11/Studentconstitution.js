@@ -4,7 +4,7 @@ import img1 from './images/2.jpg';
 export default function Studentconstitution() {
   return (
     <>
-      <Navigationbar />
+      <Navigationbar/>
       <br/>
       <p className="fs-6 mt-2 mb-0"> To download Constitution Brochure: <a href="/pdf/StudentsConstitution.pdf" download> Click here </a></p>
 

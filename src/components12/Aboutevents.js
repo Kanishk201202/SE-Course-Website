@@ -4,7 +4,7 @@ import Navigationbar from '../components/Navigationbar';
 export default function Aboutevents() {
   return (
     <>
-      <Navigationbar />
+      <Navigationbar/>
       <br/>
         <h3>Event Coordinators</h3>
         <table class="table">

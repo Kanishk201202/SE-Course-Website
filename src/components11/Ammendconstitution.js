@@ -6,7 +6,7 @@ export default function Ammendconstitution() {
     
     return (
     <>
-        <Navigationbar />
+        <Navigationbar/>
         <br/>
         <div className="row g-3 align-items-center">
             <div className="col-auto">

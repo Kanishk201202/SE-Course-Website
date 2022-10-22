@@ -1,10 +1,10 @@
 import React from 'react'
 import Navigationbar from '../components/Navigationbar';
 import img1 from './images/2020.jpg';
-export default function Studentregistration() {
+export default function Requesttechnical() {
   return (
     <>
-    <Navigationbar />
+    <Navigationbar/>
     <br/>
     <p className="fs-6 mt-2 mb-0"> To apply for Technical Project download this form: <a href="/pdf/Formone.pdf" download> Click here </a></p>
     <br/>

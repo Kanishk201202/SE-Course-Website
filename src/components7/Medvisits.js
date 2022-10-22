@@ -4,7 +4,7 @@ import Navigationbar from '../components/Navigationbar'
 export default function Medvisits() {
   return (
     <>
-    <Navigationbar />
+    <Navigationbar/>
     <br/>
     <table class="table">
       <thead>

@@ -11,7 +11,7 @@ export default function Medical() {
     
   return (
     <>
-        <Navigationbar />
+        <Navigationbar/>
         <br/>
         <ul className="nav justify-content-center">
             <li className="nav-item">

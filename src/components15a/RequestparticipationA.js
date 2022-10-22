@@ -1,10 +1,10 @@
 import React from 'react'
-import Navigationbar from '../components/Navigationbar';
+import Navigationbar1 from '../components/Navigationbar1';
 import img1 from './images/2020.jpg';
-export default function Vacationregistration() {
+export default function RequestparticipationA() {
   return (
    <>
-   <Navigationbar />
+   <Navigationbar1/>
    <br/>
     Kanishk
     <br/>

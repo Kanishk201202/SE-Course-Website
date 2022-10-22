@@ -4,7 +4,7 @@ import Navigationbar from '../components/Navigationbar'
 export default function Electionwithdrawl() {
   return (
     <>
-        <Navigationbar />
+        <Navigationbar/>
         <br/>
         <h3>Election Withdrawl</h3>
     <br/>

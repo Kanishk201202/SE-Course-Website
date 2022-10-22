@@ -5,7 +5,7 @@ import img1 from './images/4545.png';
 export default function Gcu() {
   return (
     <>
-        <Navigationbar />
+        <Navigationbar/>
         <br/>
         <ul className="nav justify-content-center">
             <li className="nav-item">

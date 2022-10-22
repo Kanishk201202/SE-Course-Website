@@ -4,7 +4,7 @@ import Navigationbar from '../components/Navigationbar'
 export default function Studentclubapplication() {
   return (
     <>
-       <Navigationbar />
+       <Navigationbar/>
        <br/>
        <h3>Application for Coordinator</h3>
         <br/>

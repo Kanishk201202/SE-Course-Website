@@ -7,7 +7,7 @@ import img3 from './images/22.jpeg';
 export default function Hostelquery() {
   return (
     <>
-        <Navigationbar />
+        <Navigationbar/>
         <br/>
         <ul className="nav justify-content-center">
             <li className="nav-item">

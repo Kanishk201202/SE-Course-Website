@@ -10,7 +10,7 @@ import img6 from './images/106.jpg';
 export default function Technicalactivities() {
   return (
     <>
-        <Navigationbar />
+        <Navigationbar/>
         <br/>
         <ul className="nav justify-content-center">
             <li className="nav-item">

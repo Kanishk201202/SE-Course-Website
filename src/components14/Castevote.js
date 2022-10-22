@@ -4,7 +4,7 @@ import Navigationbar from '../components/Navigationbar'
 export default function Castevote() {
   return (
     <>
-        <Navigationbar />
+        <Navigationbar/>
         <br/>
         <div className="row g-3 align-items-center">
             <div className="col-auto">

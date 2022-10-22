@@ -10,7 +10,7 @@ import img6 from './images/10006.jpg';
 export default function Student() {
   return (
     <>
-        <Navigationbar />
+        <Navigationbar/>
         <br/>
         <ul className="nav justify-content-center">
             <li className="nav-item">

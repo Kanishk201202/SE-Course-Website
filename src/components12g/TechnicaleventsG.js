@@ -1,10 +1,10 @@
 import React from 'react'
-import Navigationbar from '../components/Navigationbar'
+import Navigationbar2 from '../components/Navigationbar2'
 
-export default function Technicalevents() {
+export default function TechnicaleventsG() {
   return (
     <>
-      <Navigationbar />
+      <Navigationbar2/>
       <br/>
         <table class="table">
       <thead>

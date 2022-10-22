@@ -1,10 +1,10 @@
 import React from 'react'
-import Navigationbar from '../components/Navigationbar'
+import Navigationbar2 from '../components/Navigationbar2'
 
-export default function Feedback() {
+export default function FeedbackG() {
   return (
     <>
-        <Navigationbar />
+        <Navigationbar2/>
         <br/>
         <div className="row g-3 align-items-center">
             <div className="col-auto">

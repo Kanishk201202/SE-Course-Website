@@ -29,8 +29,7 @@ export default function Navigationbar() {
                         Student Affairs
                     </NavLink>
                     <ul className="dropdown-menu">
-                      <li><NavLink className="dropdown-item" to="/constitution">Constitution</NavLink></li>
-                      <li><NavLink className="dropdown-item" to="/technicalactivities">Technical Activities</NavLink></li>
+                      <li><NavLink className="dropdown-item" to="/technicalactivitiesg">Technical Activities</NavLink></li>
                       <li><NavLink className="dropdown-item" to="/gcu">GCU</NavLink></li>
                       <li><NavLink className="dropdown-item" to="/student">Student Clubs and Elections</NavLink></li>
                       <li><NavLink className="dropdown-item" to="/download">Downloads</NavLink></li>

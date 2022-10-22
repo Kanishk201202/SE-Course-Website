@@ -125,6 +125,10 @@ import HostelqueryG from './components6g/HostelqueryG';
 import MessqueryG from './components6g/MessqueryG';
 import BookappointmentG from './components7g/BookappointmentG';
 import MedicalG from './components7g/MedicalG';
+import FeedbackG from './components12g/FeedbackG';
+import TechnicalactivitiesG from './components12g/TechnicalactivitiesG';
+import TechnicalclubsG from './components12g/TechnicalclubsG';
+import TechnicaleventsG from './components12g/TechnicaleventsG';
 import {
   BrowserRouter as Router,
   Routes,
@@ -259,6 +263,11 @@ function App() {
           <Route exact path="/messqueryg" element={<MessqueryG/>} />
           <Route exact path="/bookappointmentg" element={<BookappointmentG/>} />
           <Route exact path="/medicalserviceg" element={<MedicalG/>} />
+          <Route exact path="/technicaleventsg" element={<TechnicaleventsG/>} />
+          <Route exact path="/technicalactivitiesg" element={<TechnicalactivitiesG/>} />
+          <Route exact path="/technicalclubsg" element={<TechnicalclubsG/>} />
+          <Route exact path="/feedbackg" element={<FeedbackG/>} />
+          
         </Routes>
         </div>
       </Router>

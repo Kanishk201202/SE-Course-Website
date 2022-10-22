@@ -1,32 +1,26 @@
 import React from 'react'
 import { a, NavLink } from 'react-router-dom';
-import Navigationbar from '../components/Navigationbar';
+import Navigationbar2 from '../components/Navigationbar2';
 import img1 from './images/101.jpg';
 import img2 from './images/102.jpg';
 import img3 from './images/103.jpg';
 import img4 from './images/104.jpg';
 import img5 from './images/105.jpg';
 import img6 from './images/106.jpg';
-export default function Technicalactivities() {
+export default function TechnicalactivitiesG() {
   return (
     <>
-        <Navigationbar />
+        <Navigationbar2/>
         <br/>
         <ul className="nav justify-content-center">
             <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/technicalclubs">Technical Clubs</NavLink>
+                <NavLink className="nav-link active" aria-current="page" to="/technicalclubsg">Technical Clubs</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/technicalevents">Technical Events</NavLink>
+                <NavLink className="nav-link" to="/technicaleventsg">Technical Events</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/workshopregistration">Workshop Registration</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="/aboutevents">About Events</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="/feedback">Feedback</NavLink>
+                <NavLink className="nav-link" to="/feedbackg">Feedback</NavLink>
             </li>
         </ul>
 

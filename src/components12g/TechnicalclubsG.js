@@ -1,10 +1,10 @@
 import React from 'react'
-import Navigationbar from '../components/Navigationbar'
+import Navigationbar2 from '../components/Navigationbar2'
 
-export default function technicalclubs() {
+export default function TechnicalclubsG() {
   return (
     <>
-       <Navigationbar />
+       <Navigationbar2/>
        <br/>
        <div class="row ">
         <div class="col">

@@ -14,15 +14,6 @@ export default function Gcu() {
             <li className="nav-item">
                 <NavLink className="nav-link" to="/registerissue">Register Issue</NavLink>
             </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="/administartiveinterface">Administrative Interface</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="/councellorinterface">Councellor Interface</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="/registeredstudents">Registered Students</NavLink>
-            </li>
         </ul>
 
         <br/>

@@ -14,9 +14,6 @@ export default function Hosteladmission() {
                 <NavLink className="nav-link active" aria-current="page" to="/studentadmission">Student Admission</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/guestadmission">Guest Admission</NavLink>
-            </li>
-            <li className="nav-item">
                 <NavLink className="nav-link" to="/hostelfees">Hostel Fees</NavLink>
             </li>
             <li className="nav-item">

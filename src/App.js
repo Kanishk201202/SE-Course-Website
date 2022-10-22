@@ -7,21 +7,17 @@ import Hosteldetails from './components1/Hosteldetails';
 import Hostelinventory from './components1/Hostelinventory';
 import Hostelwardens from './components1/Hostelwardens';
 import Studentadmission from './components2/Studentadmission';
-import Guestadmission from './components2/Guestadmission';
 import Hostelfees from './components2/Hostelfees';
 import Hostelinformation from './components2/Hostelinformation';
 import Hosteladmission from './components2/Hosteladmission';
 import Studentroom from './components3/Studentroom';
-import Guestroom from './components3/Guestroom';
 import Vacatingroom from './components3/Vacatingroom';
 import Roomallocation from './components3/Roomallocation';
 import Changeroom from './components3/Changeroom';
 import Studentrecord from './components4/Studentrecord';
-import Visitorslogbook from './components4/Visitorslogbook';
 import Securitydetails from './components4/Securitydetails';
 import Hostellogbook from './components4/Hostellogbook';
 import Studentregistration from './components5/Studentregistration';
-import Guestregistration from './components5/Guestregistration';
 import Vacationregistration from './components5/Vacationregistration';
 import Messregistration from './components5/Messregistration';
 import Messrebate from './components5/Messrebate';
@@ -31,7 +27,6 @@ import Messquery from './components6/Messquery';
 import Hostelquery from './components6/Hostelquery';
 import Bookappointment from './components7/Bookappointment';
 import Medicalhistory from './components7/Medicalhistory';
-import Medvisits from './components7/Medvisits';
 import Medical from './components7/Medical';
 import Ammendconstitution from './components11/Ammendconstitution';
 import Studentconstitution from './components11/Studentconstitution';
@@ -51,9 +46,6 @@ import Studentclubsubscription from './components14/Studentclubsubscription';
 import Castevote from './components14/Castevote';
 import Electionresult from './components14/Electionresult';
 import Booksession from './components13/Booksession';
-import Administrativeinterface from './components13/Administrativeinterface';
-import Councellorinterface from './components13/Councellorinterface';
-import Registeredstudents from './components13/Registeredstudents';
 import Registerissue from './components13/Registerissue';
 import Gcu from './components13/Gcu';
 import Requesttechnical from './components15/Requesttechnical';
@@ -150,30 +142,25 @@ function App() {
           <Route exact path="/hostelstaffs" element={<Hostelstaffs/>} />
           <Route exact path="/hosteladmission" element={<Hosteladmission/>} />
           <Route exact path="/studentadmission" element={<Studentadmission/>} />
-          <Route exact path="/guestadmission" element={<Guestadmission/>} />
           <Route exact path="/hostelfees" element={<Hostelfees/>} />
           <Route exact path="/hostelinformation" element={<Hostelinformation/>} />
           <Route exact path="/roomallotment" element={<Roomallocation/>} />
           <Route exact path="/studentroom" element={<Studentroom/>} />
-          <Route exact path="/guestroom" element={<Guestroom/>} />
           <Route exact path="/vacatingroom" element={<Vacatingroom/>} />
           <Route exact path="/changeroom" element={<Changeroom/>} />
           <Route exact path="/hostellogbook" element={<Hostellogbook/>} />
           <Route exact path="/studentrecord" element={<Studentrecord/>} />
-          <Route exact path="/visitorslogbook" element={<Visitorslogbook/>} />
           <Route exact path="/securitydetails" element={<Securitydetails/>} />
           <Route exact path="/messregistration" element={<Messregistration/>} />
           <Route exact path="/vacationregistration" element={<Vacationregistration/>} />
           <Route exact path="/messrebate" element={<Messrebate/>} />
           <Route exact path="/studentregistration" element={<Studentregistration/>} />
-          <Route exact path="/guestregistration" element={<Guestregistration/>} />
           <Route exact path="/hostelquery" element={<Hostelquery/>} />
           <Route exact path="/ccdepartment" element={<Ccdepartment/>} />
           <Route exact path="/eudepartment" element={<Eudepartment/>} />
           <Route exact path="/messquery" element={<Messquery/>} />
           <Route exact path="/bookappointment" element={<Bookappointment/>} />
           <Route exact path="/medicalhistory" element={<Medicalhistory/>} />
-          <Route exact path="/medvisits" element={<Medvisits/>} />
           <Route exact path="/medicalservice" element={<Medical/>} />
           <Route exact path="/ammendconstitution" element={<Ammendconstitution/>} />
           <Route exact path="/studentconstitution" element={<Studentconstitution/>} />
@@ -195,9 +182,6 @@ function App() {
           <Route exact path="/gcu" element={<Gcu/>} />
           <Route exact path="/booksession" element={<Booksession/>} />
           <Route exact path="/registerissue" element={<Registerissue/>}/>
-          <Route exact path="/administartiveinterface" element={<Administrativeinterface/>} />
-          <Route exact path="/councellorinterface" element={<Councellorinterface/>} />
-          <Route exact path="/registeredstudents" element={<Registeredstudents/>} />
           <Route exact path="/requesttechnical" element={<Requesttechnical/>} />
           <Route exact path="/requestbudget" element={<Requestbudget/>} />
           <Route exact path="/requestparticipation" element={<Requestparticipation/>} />

@@ -14,9 +14,6 @@ export default function Messregistration() {
                 <NavLink className="nav-link active" aria-current="page" to="/studentregistration">Student Registration</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/guestregistration">Guest Registration</NavLink>
-            </li>
-            <li className="nav-item">
                 <NavLink className="nav-link" to="/vacationregistration">Vacation Registration</NavLink>
             </li>
             <li className="nav-item">

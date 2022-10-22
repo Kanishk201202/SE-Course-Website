@@ -20,9 +20,6 @@ export default function Medical() {
             <li className="nav-item">
                 <NavLink className="nav-link" to="/medicalhistory">Medical History</NavLink>
             </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="/medvisits">Medvisits</NavLink>
-            </li>
         </ul>
         <div classNameName="container my-3 w-75">
         <h1>Medical Service</h1>

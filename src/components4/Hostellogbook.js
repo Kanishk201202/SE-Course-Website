@@ -14,9 +14,6 @@ export default function Hostellogbook() {
                 <NavLink className="nav-link active" aria-current="page" to="/studentrecord">Student Records</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/visitorslogbook">Visitors Logbook</NavLink>
-            </li>
-            <li className="nav-item">
                 <NavLink className="nav-link" to="/securitydetails">Security Details</NavLink>
             </li>
         </ul>

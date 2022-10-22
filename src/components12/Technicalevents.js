@@ -6,6 +6,8 @@ export default function Technicalevents() {
     <>
       <Navigationbar/>
       <br/>
+      <h2>Technical Events</h2>
+      <br/>
         <table class="table">
       <thead>
         <tr>

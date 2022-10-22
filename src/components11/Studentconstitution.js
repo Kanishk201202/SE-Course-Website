@@ -6,6 +6,8 @@ export default function Studentconstitution() {
     <>
       <Navigationbar/>
       <br/>
+      <h2>Student Constitution</h2>
+      <br/>
       <p className="fs-6 mt-2 mb-0"> To download Constitution Brochure: <a href="/pdf/StudentsConstitution.pdf" download> Click here </a></p>
 
       <img src={img1} className="img-fluid shadow-4" alt="..."/>

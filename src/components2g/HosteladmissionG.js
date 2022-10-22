@@ -21,7 +21,7 @@ export default function HosteladmissionG() {
             </li>
         </ul>
         <div classNameName="container my-3 w-75">
-        <h1>Hostels</h1>
+        <h1>Hostel Admission</h1>
         The campus houses six multistorey hostel blocks, each with a capacity of approximately...students. Each hostel is equipped with the requisite infrastructure to ensure the comfort and safety of its residents. Rooms are equipped with basic furniture, including, chairs, study-tables, cots, almirahs, drying-stands and so on. Further, each hostel block has spacious common rooms where residents have access to TVs, indoor board games, newspapers and magazines for their recreation. All the hostels are provided with high-speed internet, washing machines, water coolers, rooftop solar system for hot water, RO purified drinking water, and other key facilities. Our dedicated housekeeping staff regularly clean hostel rooms and bathrooms. Additionally, each hostel block has round-the-clock-security to ensure the safety of its residents. The day-to-day management of hostels is taken care of by a committee consisting of student representatives and resident assistant warden, who work under the guidance of the council of wardens.
         
         <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">

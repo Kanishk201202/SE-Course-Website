@@ -6,103 +6,58 @@ export default function ElectionregistrationA() {
     <>
     <Navigationbar1/>
     <br/>
-    <h3>Nomination for election</h3>
+    <h2>Students registered for Election</h2>
     <br/>
-    <div className="row g-3 align-items-center">
-        <div className="col-auto">
-            <label for="inputPassword6" className="col-form-label">Name</label>
-        </div>
-        <div className="col-auto">
-            <input type="text" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
-        </div>
-        <div className="col-auto">
-            <span id="passwordHelpInline" className="form-text">
-                Must be 8-20 characters long.
-            </span>
-        </div>
-    </div>
-
-    <br/>
-    <div className="row g-3 align-items-center">
-        <div className="col-auto">
-            <label for="inputPassword6" className="col-form-label">Roll Number</label>
-        </div>
-        <div className="col-auto w-15">
-            <input type="text" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
-        </div>
-        <div className="col-auto">
-            <span id="passwordHelpInline" className="form-text">
-                Enter your college roll number.
-            </span>
-        </div>
-    </div>
-
-    <br/>
-    <div>
-        <h6>Gender</h6>
-        
-        <select className="form-select w-25" aria-label="Default select example" >
-            <option selected>select</option>
-            <option value="1">Male</option>
-            <option value="2">Female</option>
-            <option value="3">Others</option>
-        </select>
-      </div>
-      <br/>
-    <form class="row g-3">
-        <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4"/>
-        </div>
-    </form>
-    <br/>
-    <div className="row g-3 align-items-center">
-        <div className="col-auto">
-            <label for="inputPassword6" className="col-form-label">Contact Number</label>
-        </div>
-        <div className="col-auto">
-            <input type="text" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
-        </div>
-        <div className="col-auto">
-            <span id="passwordHelpInline" className="form-text">
-                Enter your 10 digit mobile number.
-            </span>
-        </div>
-    </div>
-    <br/>
-    <div>
-    <h6>Position</h6>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Candidate Name</th>
+          <th scope="col">Position</th>
+          <th scope="col">Registration for election</th>
     
-    <select className="form-select w-25" aria-label="Default select example" >
-        <option selected>select</option>
-        <option value="1">Student General Secretary</option>
-        <option value="2">Hostel Affairs Secretary</option>
-        <option value="3">Student Affairs Secretary</option>
-        <option value="4">Mess Secretary</option>
-        <option value="5">Sports Secretary</option>
-        <option value="6">CR - 1st Year</option>
-        <option value="7">CR - 2nd Year</option>
-        <option value="8">CR - 3rd Year</option>
-        <option value="9">CR - 4th Year</option>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Kanishk Kumar</td>
+          <td>Student General Secretary</td>
+          <td>Registered</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Aditya Pandey</td>
+          <td>Sports Secretary</td>
+          <td>Registered</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Canya Forger</td>
+          <td>Mess Secretary</td>
+          <td>Registered</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Anurag Kumar</td>
+          <td>Mess Secretary</td>
+          <td>Registered</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Anya Forger</td>
+          <td>Student General Secretary</td>
+          <td>Registered</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Banya Forger</td>
+          <td>Sports Secretary</td>
+          <td>Registered</td>
+        </tr>
        
-    </select>
-    </div>
-    <br/>
-    <div>
-    <h6>Branch</h6>
-    
-    <select className="form-select w-25" aria-label="Default select example" >
-        <option selected>select</option>
-        <option value="1">Chemical Engineering</option>
-        <option value="2">Civil Engineering</option>
-        <option value="3">Computer Science and Engineering</option>
-        <option value="4">Electrical Engineering</option>
-        <option value="5">Mechanical Engineering</option>
-       
-    </select>
-    </div>
-    <br/>
-    <button type="button" class="btn btn-primary">Submit</button>
+      </tbody>
+</table>
 </>
   )
 }

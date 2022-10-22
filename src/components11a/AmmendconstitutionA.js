@@ -8,6 +8,8 @@ export default function AmmendconstitutionA() {
     <>
         <Navigationbar1/>
         <br/>
+        <h2>Form for Ammending Constitution</h2>
+        <br/>
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Name</label>

@@ -6,7 +6,7 @@ export default function Studentclubapplication() {
     <>
        <Navigationbar/>
        <br/>
-       <h3>Application for Coordinator</h3>
+       <h3>Application for Student Club Coordinator</h3>
         <br/>
         <div className="row g-3 align-items-center">
             <div className="col-auto">

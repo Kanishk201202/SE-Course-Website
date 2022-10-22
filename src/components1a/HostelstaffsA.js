@@ -5,6 +5,8 @@ export default function HostelstaffsA() {
     <>
     <Navigationbar1/>
     <br/>
+    <h2>Hostel Staffs</h2>
+    <br/>
        <table class="table">
       <thead>
         <tr>

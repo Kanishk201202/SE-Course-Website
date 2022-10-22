@@ -5,6 +5,8 @@ export default function Hostelinventory() {
     <>
     <Navigationbar/>
     <br/>
+    <h2>Hostel Inventory</h2>
+    <br/>
     <table class="table">
       <thead>
         <tr>

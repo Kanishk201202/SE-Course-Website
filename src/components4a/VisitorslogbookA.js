@@ -7,74 +7,65 @@ export default function VisitorslogbookA() {
     <>
         <Navigationbar1/>
         <br/>
-        <div className="row g-3 align-items-center">
-            <div className="col-auto">
-                <label for="inputPassword6" className="col-form-label">Name</label>
-            </div>
-            <div className="col-auto">
-                <input type="text" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
-            </div>
-            <div className="col-auto">
-                <span id="passwordHelpInline" className="form-text">
-                    Must be 8-20 characters long.
-                </span>
-            </div>
-        </div>
-
+        <h2>Visitors Logbook</h2>
         <br/>
-    
-        <div className="row g-3 align-items-center">
-            <div className="col-auto">
-                <label for="inputPassword6" className="col-form-label">Contact Number</label>
-            </div>
-            <div className="col-auto">
-                <input type="text" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
-            </div>
-            <div className="col-auto">
-                <span id="passwordHelpInline" className="form-text">
-                    Enter your 10 digit mobile number.
-                </span>
-            </div>
-        </div>
-        <br/>
-        <div>
-          <h6>Date of entry:</h6>
-          <div className="input-group mb-3 w-25">
-          <span className="input-group-text" id="basic-addon1">Date</span>
-          <input type="date" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
-          </div>
-        </div>
-        <br/>
-        <div>
-          <h6>Time of entry:</h6>
-          <div className="input-group mb-3 w-25">
-          <span className="input-group-text" id="basic-addon1">Time</span>
-          <input type="time" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
-          </div>
-        </div>
-        <br/>
-        <div>
-          <h6>Date of exit:</h6>
-          <div className="input-group mb-3 w-25">
-          <span className="input-group-text" id="basic-addon1">Date</span>
-          <input type="date" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
-          </div>
-        </div>
-        <br/>
-        <div>
-          <h6>Time of exit:</h6>
-          <div className="input-group mb-3 w-25">
-          <span className="input-group-text" id="basic-addon1">Time</span>
-          <input type="time" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
-          </div>
-        </div>
-        <br/>
-        <div className="mb-3">
-            <label for="formFile" className="form-label">Add your signature</label>
-            <input className="form-control" type="file" id="formFile"/>
-        </div>
-        <br/>
-        <button type="button" className="btn btn-primary">Submit</button>
+        <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Contact</th>
+          <th scope="col">Date and Time of entry</th>
+          <th scope="col">Date and Time of exit</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Anya</td>
+          <td>4444444441</td>
+          <td>22nd October, 2022</td>
+          <td>9:00</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Banya</td>
+          <td>4444444442</td>
+          <td>22nd October, 2022</td>
+          <td>12:00</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Canya</td>
+          <td>4444444443</td>
+          <td>22nd October, 2022</td>
+          <td>17:00</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Danya</td>
+          <td>4444444444</td>
+          <td>23rd October, 2022</td>
+          <td>17:00</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Fanya</td>
+          <td>4444444445</td>
+          <td>23rd October, 2022</td>
+          <td>17:00</td>
+          
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Ganya</td>
+          <td>4444444446</td>
+          <td>23rd October, 2022</td>
+          <td>17:00</td>
+          
+        </tr>
+      </tbody>
+</table>
     </>
   )
 }

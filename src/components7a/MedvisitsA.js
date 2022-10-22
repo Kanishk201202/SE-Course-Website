@@ -6,6 +6,8 @@ export default function MedvisitsA() {
     <>
     <Navigationbar1/>
     <br/>
+    <h2>Medical Visits</h2>
+    <br/>
     <table class="table">
       <thead>
         <tr>

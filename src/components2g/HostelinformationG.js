@@ -5,6 +5,8 @@ export default function HostelinformationG() {
     <>
     <Navigationbar2/>
     <br/>
+    <h2>Information about hostel</h2>
+    <br/>
     <div class="alert alert-warning alert-dismissible fade show" role="alert">
       <strong>For more details check in Hostel Details section of the website.</strong> 
       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>

@@ -6,55 +6,39 @@ export default function RegisterissueA() {
     <>
         <Navigationbar1/>
         <br/>
-        <div className="row g-3 align-items-center">
-            <div className="col-auto">
-                <label for="inputPassword6" className="col-form-label">Name</label>
-            </div>
-            <div className="col-auto">
-                <input type="password" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
-            </div>
-            <div className="col-auto">
-                <span id="passwordHelpInline" className="form-text">
-                    Must be 8-20 characters long.
-                </span>
-            </div>
-        </div>
-
+        <h2>Registered Issues</h2>
         <br/>
-        <div className="row g-3 align-items-center">
-            <div className="col-auto">
-                <label for="inputPassword6" className="col-form-label">Roll Number</label>
-            </div>
-            <div className="col-auto w-15">
-                <input type="password" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
-            </div>
-            <div className="col-auto">
-                <span id="passwordHelpInline" className="form-text">
-                    Enter your college roll number.
-                </span>
-            </div>
-        </div>
-
-        <br/>
-        <div className="row g-3 align-items-center">
-            <div className="col-auto">
-                <label for="inputPassword6" className="col-form-label">Contact Number</label>
-            </div>
-            <div className="col-auto">
-                <input type="password" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
-            </div>
-            <div className="col-auto">
-                <span id="passwordHelpInline" className="form-text">
-                    Enter your 10 digit mobile number.
-                </span>
-            </div>
-        </div>
-        <br/>
-        <div className="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Enter your Issue</label>
-            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <button type="button" class="btn btn-primary">Submit</button>
+        <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Contact</th>
+          <th scope="col">Issue</th>
+    
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Anya</td>
+          <td>4444444441</td>
+          <td>Not getting much help from GCU sessions.</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Banya</td>
+          <td>4444444442</td>
+          <td>Booked an appointment but it was cancelled.</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Canya</td>
+          <td>4444444443</td>
+          <td>Cannot book appointment because councellor not available.</td>
+        </tr>
+      </tbody>
+</table>
     </>
   )
 }

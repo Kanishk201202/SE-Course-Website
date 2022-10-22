@@ -7,6 +7,8 @@ export default function TechnicalclubsA() {
     <>
        <Navigationbar1/>
        <br/>
+       <h2>Technical Clubs</h2>
+       <br/>
        <div class="row ">
         <div class="col">
             <div className="card text-bg-dark mb-3" style={{"maxWidth": "18rem"}}>

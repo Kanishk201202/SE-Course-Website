@@ -6,6 +6,10 @@ export default function CouncellorinterfaceA() {
     <>
     <Navigationbar1/>
     <br/>
+    <h2>Counsellor Interface</h2>
+    <br/>
+    <h3>Progress of Students</h3>
+    <br/>
     <table class="table">
       <thead>
         <tr>

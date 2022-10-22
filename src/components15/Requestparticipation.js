@@ -6,6 +6,8 @@ export default function Requestparticipation() {
    <>
    <Navigationbar/>
    <br/>
+   <h2>Form for Requesting Participation</h2>
+   <br/>
     Kanishk
     <br/>
     <img src={img1} className="img-fluid shadow-4" alt="..."/>

@@ -6,6 +6,8 @@ export default function RegisteredstudentsA() {
     <>
         <Navigationbar1/>
         <br/>
+        <h2>Registered Students</h2>
+        <br/>
         <table class="table">
       <thead>
         <tr>

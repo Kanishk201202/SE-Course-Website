@@ -6,6 +6,8 @@ export default function StudentclubsG() {
     <>
     <Navigationbar2/>
     <br/>
+    <h2>Student Clubs</h2>
+    <br/>
     <div class="row ">
         <div class="col">
             <div className="card text-bg-light mb-3" style={{"maxWidth": "18rem"}}>

@@ -21,7 +21,7 @@ export default function Messregistration() {
             </li>
         </ul>
         <div classNameName="container my-3 w-75">
-        <h1>Mess</h1>
+        <h1>Mess Registration</h1>
         The institute provides a common mess facility that is housed in a spacious and well-ventilated dining room. The dining room is equipped with large volume and low-speed fans as well as TVs for the diner’s convenience. Additionally, the mess facility is equipped with a hygienically maintained kitchen and a storeroom which includes cold storage for perishable items. The food menu is regularly managed by the student representatives to serve the food preferences of our diverse student community who come from different regions of the country. The mess is operated by a private caterer, who is selected through a competitive tendering process that is called by the Institute every one or two years depending on the caterer’s performance. The day to day activities of the mess are however supervised by the Mess Establishment along with the student representatives.
         
         <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">

@@ -6,6 +6,8 @@ export default function AbouteventsA() {
     <>
       <Navigationbar1/>
       <br/>
+      <h2>About Events</h2>
+      <br/>
         <h3>Event Coordinators</h3>
         <table class="table">
       <thead>

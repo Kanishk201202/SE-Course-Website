@@ -5,6 +5,8 @@ export default function HostelfeesA() {
     <>
     <Navigationbar1/>
     <br/>
+    <h2>About Hostel Fees</h2>
+    <br/>
     <div class="accordion" id="accordionPanelsStayOpenExample">
       <div class="accordion-item">
         <h2 class="accordion-header" id="panelsStayOpen-headingOne">

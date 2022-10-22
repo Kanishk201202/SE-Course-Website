@@ -7,42 +7,39 @@ export default function FeedbackA() {
     <>
         <Navigationbar1/>
         <br/>
-        <div className="row g-3 align-items-center">
-            <div className="col-auto">
-                <label for="inputPassword6" className="col-form-label">Name</label>
-            </div>
-            <div className="col-auto">
-                <input type="text" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
-            </div>
-            <div className="col-auto">
-                <span id="passwordHelpInline" className="form-text">
-                    Must be 8-20 characters long.
-                </span>
-            </div>
-        </div>
-
+        <h2>Feedback from Students and Guests</h2>
         <br/>
-        <div className="row g-3 align-items-center">
-            <div className="col-auto">
-                <label for="inputPassword6" className="col-form-label">Roll Number</label>
-            </div>
-            <div className="col-auto w-15">
-                <input type="text" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
-            </div>
-            <div className="col-auto">
-                <span id="passwordHelpInline" className="form-text">
-                    Enter your college roll number.
-                </span>
-            </div>
-        </div>
-
-        <br/>
-        <div className="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Your Feedback</label>
-            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <br/>
-        <button type="button" class="btn btn-primary">Submit</button>
+        <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Contact</th>
+          <th scope="col">Feedback</th>
+    
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Anya</td>
+          <td>4444444441</td>
+          <td>Artificial Intelligence workshop was good and informative.</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Banya</td>
+          <td>4444444442</td>
+          <td>Moon watch party event was well organised.</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Canya</td>
+          <td>4444444443</td>
+          <td>Robotics workshop was good</td>
+        </tr>
+      </tbody>
+</table>
     </>
   )
 }

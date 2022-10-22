@@ -6,6 +6,8 @@ export default function Eudepartment() {
     <>
     <Navigationbar/>
     <br/>
+    <h2>EU Department</h2>
+    <br/>
     <table class="table">
       <thead>
         <tr>

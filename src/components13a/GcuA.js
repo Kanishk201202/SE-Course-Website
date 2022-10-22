@@ -15,7 +15,7 @@ export default function GcuA() {
                 <NavLink className="nav-link" to="/administartiveinterfacea">Administrative Interface</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/councellorinterfacea">Councellor Interface</NavLink>
+                <NavLink className="nav-link" to="/councellorinterfacea">Counsellor Interface</NavLink>
             </li>
             <li className="nav-item">
                 <NavLink className="nav-link" to="/registeredstudentsa">Registered Students</NavLink>

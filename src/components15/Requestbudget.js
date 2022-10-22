@@ -8,6 +8,8 @@ export default function Requestbudget() {
     <>
         <Navigationbar/>
         <br/>
+        <h2>Form for requesting budget</h2>
+        <br/>
         Hehe Cato
         <br/>
         <img src={img1} className="img-fluid shadow-4" alt="..."/>

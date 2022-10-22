@@ -6,6 +6,8 @@ export default function Medicalhistory() {
     <>
     <Navigationbar/>
     <br/>
+    <h2>Student Medical History</h2>
+    <br/>
     <table class="table">
       <thead>
         <tr>

@@ -8,49 +8,45 @@ export default function MessqueryA() {
     <>
         <Navigationbar1/>
         <br/>
-        <div className="row g-3 align-items-center">
-            <div className="col-auto">
-                <label for="inputPassword6" className="col-form-label">Name</label>
-            </div>
-            <div className="col-auto">
-                <input type="text" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
-            </div>
-            <div className="col-auto">
-                <span id="passwordHelpInline" className="form-text">
-                    Must be 8-20 characters long.
-                </span>
-            </div>
-        </div>
-
+        <h2>Form for Mess Query</h2>
         <br/>
+        <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Contact</th>
+          <th scope="col">Query</th>
     
-        <div className="row g-3 align-items-center">
-            <div className="col-auto">
-                <label for="inputPassword6" className="col-form-label">Contact Number</label>
-            </div>
-            <div className="col-auto">
-                <input type="text" id="inputPassword6" className="form-control" aria-describedby="passwordHelpInline"/>
-            </div>
-            <div className="col-auto">
-                <span id="passwordHelpInline" className="form-text">
-                    Enter your 10 digit mobile number.
-                </span>
-            </div>
-        </div>
-        <br/>
-        <form class="row g-3">
-            <div class="col-md-6">
-                <label for="inputEmail4" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail4"/>
-            </div>
-        </form>
-        <br/>
-        <div className="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Your query</label>
-            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <br/>
-        <button type="button" className="btn btn-primary">Submit</button>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Anya</td>
+          <td>123467890</td>
+          <td>Table and plates not clean</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Banya</td>
+          <td>0987654321</td>
+          <td>Many houseflies flying around</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Canya</td>
+          <td>123784560</td>
+          <td>Food doesn't taste good</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Danya</td>
+          <td>4560123789</td>
+          <td>Rotis are hard</td>
+        </tr>
+      </tbody>
+</table>
     </>
   )
 }

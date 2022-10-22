@@ -6,6 +6,10 @@ export default function AdministrativeinterfaceA() {
     <>
         <Navigationbar1/>
         <br/>
+        <h2>Administrative Interface</h2>
+        <br/>
+        <h3>Input from Students</h3>
+        <br/>
         <table class="table">
       <thead>
         <tr>
@@ -37,6 +41,8 @@ export default function AdministrativeinterfaceA() {
         </tr>
       </tbody>
 </table>
+<br/>
+<h3>Category of Students for Councelling</h3>
 <br/>
 <table class="table">
       <thead>

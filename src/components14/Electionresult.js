@@ -6,6 +6,8 @@ export default function Electionresult() {
     <>
         <Navigationbar/>
         <br/>
+        <h2>Election Result</h2>
+        <br/>
         <table class="table">
       <thead>
         <tr>

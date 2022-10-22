@@ -5,6 +5,8 @@ export default function Securitydetails() {
     <>
     <Navigationbar/>
     <br/>
+    <h2>Security Guard Details</h2>
+    <br/>
     <table class="table">
       <thead>
         <tr>

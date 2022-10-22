@@ -109,6 +109,10 @@ import RequestparticipationA from './components15a/RequestparticipationA';
 import RequesttechnicalA from './components15a/RequesttechnicalA';
 import Home1 from './components/Home1';
 import Home2 from './components/Home2';
+import HosteldetailsG from './components1g/HosteldetailsG';
+import HostelinventoryG from './components1g/HostelinventoryG';
+import HostelstaffsG from './components1g/HostelstaffsG';
+import HostelwardensG from './components1g/HostelwardensG';
 import {
   BrowserRouter as Router,
   Routes,
@@ -227,6 +231,10 @@ function App() {
           <Route exact path="/requestparticipationa" element={<RequestparticipationA/>} />
           <Route exact path="/downloadsa" element={<DownloadsA/>} />
           <Route exact path="/home2" element={<Home2/>} />
+          <Route exact path="/hosteldetailsg" element={<HosteldetailsG/>} />
+          <Route exact path="/hostelinventoryg" element={<HostelinventoryG/>} />
+          <Route exact path="/hostelwardensg" element={<HostelwardensG/>} />
+          <Route exact path="/hostelstaffsg" element={<HostelstaffsG/>} />
         </Routes>
         </div>
       </Router>

@@ -1,9 +1,9 @@
 import React from 'react'
-import Navigationbar from '../components/Navigationbar'
-export default function Hostelwardens() {
+import Navigationbar2 from '../components/Navigationbar2'
+export default function HostelwardensG() {
   return (
     <>
-    <Navigationbar/>
+    <Navigationbar2/>
     <br/>
     <h1>Hostel Wardens</h1>
     <table class="table">

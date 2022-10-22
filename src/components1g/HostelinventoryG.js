@@ -1,9 +1,9 @@
 import React from 'react'
-import Navigationbar from '../components/Navigationbar'
-export default function Hostelinventory() {
+import Navigationbar2 from '../components/Navigationbar2'
+export default function HostelinventoryG() {
   return (
     <>
-    <Navigationbar/>
+    <Navigationbar2/>
     <br/>
     <table class="table">
       <thead>

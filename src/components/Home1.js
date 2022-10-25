@@ -5,7 +5,7 @@ export default function Home1() {
   return (
     <>
         <Navigationbar1/>
-        Kanishk likes Bhasamrita.
+        Administrative home page
     </>
   )
 }

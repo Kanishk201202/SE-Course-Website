@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <Navigationbar/>
-      Kanishk has to make Home Page and improve UI.
+      Student home page
     </>
   );
 };

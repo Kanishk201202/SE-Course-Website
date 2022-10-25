@@ -5,7 +5,7 @@ export default function Home2() {
   return (
     <>
         <Navigationbar2/>
-        Kanishk likes Bhasamrita.
+        Guest home page
     </>
   )
 }

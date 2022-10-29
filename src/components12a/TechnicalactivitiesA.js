@@ -10,8 +10,10 @@ import img6 from './images/106.jpg';
 export default function TechnicalactivitiesA() {
   return (
     <>
+     {/*Navigation bar for navigating*/}
         <Navigationbar1/>
         <br/>
+         {/*different tabs*/}
         <ul className="nav justify-content-center">
             <li className="nav-item">
                 <NavLink className="nav-link active" aria-current="page" to="/technicalclubsa">Technical Clubs</NavLink>
@@ -29,7 +31,7 @@ export default function TechnicalactivitiesA() {
                 <NavLink className="nav-link" to="/feedbacka">Feedback</NavLink>
             </li>
         </ul>
-
+{/*about technical activities*/}
 
         <h1>Technical Activities</h1>
         Various number of Technical Activities have taken place in our college in the past and also many such events and activities are going to happen in future also.
@@ -44,6 +46,7 @@ export default function TechnicalactivitiesA() {
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
             </div>
             <br/>
+            {/*technical activities images*/}
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <img src={img1} className="d-block w-75" alt=""/>

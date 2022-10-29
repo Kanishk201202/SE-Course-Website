@@ -5,10 +5,12 @@ import Navigationbar1 from '../components/Navigationbar1'
 export default function WorkshopregistrationA() {
   return (
     <>
+      {/*Navigation bar for navigating*/}
         <Navigationbar1/>
         <br/>
         <h2>Students registered for Workshops</h2>
         <br/>
+          {/*table for students registered for workshop*/}
         <table class="table">
       <thead>
         <tr>

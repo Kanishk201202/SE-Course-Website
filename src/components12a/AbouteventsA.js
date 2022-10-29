@@ -4,10 +4,12 @@ import Navigationbar1 from '../components/Navigationbar1';
 export default function AbouteventsA() {
   return (
     <>
+      {/*Navigation bar for navigating*/}
       <Navigationbar1/>
       <br/>
       <h2>About Events</h2>
       <br/>
+        {/*table for information about events*/}
         <h3>Event Coordinators</h3>
         <table class="table">
       <thead>

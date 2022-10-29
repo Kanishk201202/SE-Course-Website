@@ -4,10 +4,12 @@ import Navigationbar from '../components/Navigationbar'
 export default function Technicalclubs() {
   return (
     <>
+    {/*Navigation bar for navigating*/}
        <Navigationbar/>
        <br/>
        <h2>Technical Clubs</h2>
        <br/>
+       {/*about technical clubs*/}
        <div class="row ">
         <div class="col">
             <div className="card text-bg-dark mb-3" style={{"maxWidth": "18rem"}}>

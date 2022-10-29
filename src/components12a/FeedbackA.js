@@ -5,10 +5,12 @@ import Navigationbar1 from '../components/Navigationbar1'
 export default function FeedbackA() {
   return (
     <>
+    {/*Navigation bar for navigating*/}
         <Navigationbar1/>
         <br/>
         <h2>Feedback from Students and Guests</h2>
         <br/>
+        {/*Table fro feedback by students and guests*/}
         <table class="table">
       <thead>
         <tr>

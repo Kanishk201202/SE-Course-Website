@@ -6,10 +6,12 @@ export default function Messquery() {
     
     return (
     <>
+     {/*Navigation bar for navigating*/}
         <Navigationbar/>
         <br/>
         <h2>Form for Mess Query</h2>
         <br/>
+        {/*enter your name*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Name</label>
@@ -25,7 +27,7 @@ export default function Messquery() {
         </div>
 
         <br/>
-    
+    {/*enter your contact number*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Contact Number</label>
@@ -40,6 +42,7 @@ export default function Messquery() {
             </div>
         </div>
         <br/>
+        {/*enter your email*/}
         <form class="row g-3">
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
@@ -47,11 +50,13 @@ export default function Messquery() {
             </div>
         </form>
         <br/>
+         {/*enter your query*/}
         <div className="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Your query</label>
             <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
         <br/>
+        {/*click submit button to submit data*/}
         <button type="button" className="btn btn-primary">Submit</button>
     </>
   )

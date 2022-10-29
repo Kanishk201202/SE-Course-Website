@@ -4,10 +4,12 @@ import Navigationbar1 from '../components/Navigationbar1'
 export default function EudepartmentA() {
   return (
     <>
+    {/*Navigation bar for navigating*/}
     <Navigationbar1/>
     <br/>
     <h2>EU Department</h2>
     <br/>
+    {/*table for eu department members*/}
     <table class="table">
       <thead>
         <tr>

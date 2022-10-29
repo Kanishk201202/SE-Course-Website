@@ -6,10 +6,12 @@ export default function MessqueryA() {
     
     return (
     <>
+     {/*Navigation bar for navigating*/}
         <Navigationbar1/>
         <br/>
         <h2>Form for Mess Query</h2>
         <br/>
+         {/*table for query submitted by students and guests*/}
         <table class="table">
       <thead>
         <tr>

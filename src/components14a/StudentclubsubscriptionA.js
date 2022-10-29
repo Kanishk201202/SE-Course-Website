@@ -4,10 +4,12 @@ import Navigationbar1 from '../components/Navigationbar1';
 export default function StudentclubsubscriptionA() {
   return (
     <>
+     {/*Navigation bar for navigating*/}
         <Navigationbar1/>
         <br/>
-        <h2>Studnet Club Subscriptions</h2>
+        <h2>Student Club Subscriptions</h2>
         <br/>
+         {/*tabel for registered students and guests for clubs*/}
         <table class="table">
       <thead>
         <tr>

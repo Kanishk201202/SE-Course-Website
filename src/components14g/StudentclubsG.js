@@ -4,10 +4,12 @@ import Navigationbar2 from '../components/Navigationbar2'
 export default function StudentclubsG() {
   return (
     <>
+     {/*Navigation bar for navigating*/}
     <Navigationbar2/>
     <br/>
     <h2>Student Clubs</h2>
     <br/>
+     {/*About Student Clubs*/}
     <div class="row ">
         <div class="col">
             <div className="card text-bg-light mb-3" style={{"maxWidth": "18rem"}}>

@@ -4,10 +4,12 @@ import Navigationbar1 from '../components/Navigationbar1'
 export default function StudentclubapplicationA() {
   return (
     <>
+      {/*Navigation bar for navigating*/}
        <Navigationbar1/>
        <br/>
        <h2>Studnet Club Applications</h2>
         <br/>
+          {/* Table for registered students for student clubs */}
        <table class="table">
       <thead>
         <tr>

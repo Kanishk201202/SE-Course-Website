@@ -10,8 +10,10 @@ import img6 from './images/10006.jpg';
 export default function StudentG() {
   return (
     <>
+      {/*Navigation bar for navigating*/}
         <Navigationbar2/>
         <br/>
+          {/*different tabs*/}
         <ul className="nav justify-content-center">
             <li className="nav-item">
                 <NavLink className="nav-link active" aria-current="page" to="/studentclubsg">Student Clubs</NavLink>
@@ -20,6 +22,7 @@ export default function StudentG() {
                 <NavLink className="nav-link" to="/studentclubsubscriptiong">Student Club Subscription</NavLink>
             </li>
         </ul>
+          {/*about student clubs*/}
         <h1>Student Clubs</h1>
         Some pictures of different events of Student Clubs.
         <br/>
@@ -34,6 +37,7 @@ export default function StudentG() {
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
             </div>
             <br/>
+              {/*images related to student clubs*/}
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <img src={img1} className="d-block w-75" alt=""/>

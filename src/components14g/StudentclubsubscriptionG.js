@@ -4,10 +4,12 @@ import Navigationbar2 from '../components/Navigationbar2';
 export default function StudentclubsubscriptionG() {
   return (
     <>
+     {/*Navigation bar for navigating*/}
         <Navigationbar2/>
         <br/>
         <h2>Student Club Subscription</h2>
         <br/>
+          {/*enter your name*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Name</label>
@@ -23,6 +25,7 @@ export default function StudentclubsubscriptionG() {
         </div>
 
         <br/>
+          {/*enter your roll number*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Roll Number</label>
@@ -38,6 +41,7 @@ export default function StudentclubsubscriptionG() {
         </div>
 
         <br/>
+          {/*enter your email*/}
         <form class="row g-3">
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
@@ -45,6 +49,7 @@ export default function StudentclubsubscriptionG() {
             </div>
         </form>
         <br/>
+         {/*enter your contact number*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Contact Number</label>
@@ -60,6 +65,7 @@ export default function StudentclubsubscriptionG() {
         </div>
         <br/>
         <div>
+             {/*select your club*/}
         <h6>Clubs</h6>
         
         <select className="form-select w-25" aria-label="Default select example" >
@@ -77,6 +83,7 @@ export default function StudentclubsubscriptionG() {
         </select>
         </div>
         <br/>
+         {/*click submit button to submit data*/}
         <button type="button" class="btn btn-primary">Submit</button>
     </>
   )

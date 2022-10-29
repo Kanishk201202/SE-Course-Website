@@ -4,10 +4,12 @@ import Navigationbar1 from '../components/Navigationbar1'
 export default function ElectionresultA() {
   return (
     <>
+      {/*Navigation bar for navigating*/}
         <Navigationbar1/>
         <br/>
         <h2>Result of Elections</h2>
         <br/>
+           {/*table for result of election*/}
         <table class="table">
       <thead>
         <tr>

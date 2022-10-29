@@ -10,8 +10,10 @@ import img6 from './images/10006.jpg';
 export default function Student() {
   return (
     <>
+    {/*Navigation bar for navigating*/}
         <Navigationbar/>
         <br/>
+         {/*different tabs*/}
         <ul className="nav justify-content-center">
             <li className="nav-item">
                 <NavLink className="nav-link active" aria-current="page" to="/studentclubs">Student Clubs</NavLink>
@@ -35,6 +37,7 @@ export default function Student() {
                 <NavLink className="nav-link" to="/electionresult">Election Result</NavLink>
             </li>
         </ul>
+        {/*about student clubs*/}
         <h1>Student Clubs</h1>
         Some pictures of different events of Student Clubs.
         <br/>
@@ -49,6 +52,7 @@ export default function Student() {
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
             </div>
             <br/>
+                {/*images related to student clubs*/}
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <img src={img1} className="d-block w-75" alt=""/>

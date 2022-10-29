@@ -46,10 +46,12 @@ export default function Studentregistration() {
     }
   return (
     <>
+    {/*Navigation bar for navigating*/}
         <Navigationbar/>
         <br/>
         <h2>Form for Student Mess Registration</h2>
         <br/>
+        {/*enter your name*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Name</label>
@@ -68,6 +70,7 @@ export default function Studentregistration() {
         </div>
 
         <br/>
+        {/*enter your roll number*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Roll Number</label>
@@ -87,6 +90,7 @@ export default function Studentregistration() {
 
         <br/>
         <div>
+              {/*select your programme*/}
         <h6>Programme</h6>
         
         <select className="form-select w-25" name='programme'
@@ -105,6 +109,7 @@ export default function Studentregistration() {
         
         <br/>
         <div>
+               {/*select your gender*/}
         <h6>Gender</h6>
         
         <select className="form-select w-25" name='gender'
@@ -118,6 +123,7 @@ export default function Studentregistration() {
         </select>
         </div>
         <br/>
+        {/*enter your email*/}
         <form class="row g-3">
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
@@ -128,6 +134,7 @@ export default function Studentregistration() {
             </div>
         </form>
         <br/>
+         {/*enter your contact number*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Contact Number</label>
@@ -145,6 +152,7 @@ export default function Studentregistration() {
             </div>
         </div>
         <br/>
+         {/*date*/}
         <div>
           <h6>From:</h6>
           <div className="input-group mb-3 w-25">
@@ -169,6 +177,7 @@ export default function Studentregistration() {
         </div>
 
         <br/>
+         {/*click submit button to submit data*/}
         <button type="button" class="btn btn-primary" onClick={PostData}>Submit</button>
 
     </>

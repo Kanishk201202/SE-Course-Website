@@ -3,10 +3,12 @@ import { a, NavLink } from 'react-router-dom';
 export default function Administrativelogin() {
   return (
     <>
+    {/* Dialog box for Administartibe Sign In */}
         <div className="Auth-form-container">
       <form className="Auth-form">
         <div className="Auth-form-content">
           <h3 className="Auth-form-title">Administrative Sign In</h3>
+          {/* Enter your Email Address */}
           <div className="form-group mt-3">
             <label>Email address</label>
             <input
@@ -15,6 +17,7 @@ export default function Administrativelogin() {
               placeholder="Enter email"
             />
           </div>
+          {/* Enter your password here */}
           <div className="form-group mt-3">
             <label>Password</label>
             <input
@@ -23,6 +26,7 @@ export default function Administrativelogin() {
               placeholder="Enter password"
             />
           </div>
+          {/* Click Submit button after filling up the information */}
           <div className="d-grid gap-2 mt-3">
             <NavLink to="/home1">
             <button type="submit" className="btn btn-primary">
@@ -30,9 +34,6 @@ export default function Administrativelogin() {
             </button>
             </NavLink>
           </div>
-          <p className="forgot-password text-right mt-2">
-           <NavLink to="/forgotpassword"> Forgot password?</NavLink>
-          </p>
         </div>
       </form>
     </div>

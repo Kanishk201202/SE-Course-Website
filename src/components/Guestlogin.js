@@ -3,10 +3,12 @@ import { a, NavLink } from 'react-router-dom';
 export default function Guestlogin() {
   return (
     <>
+    {/* Dialog box for Guest Sign In */}
        <div className="Auth-form-container">
       <form className="Auth-form">
         <div className="Auth-form-content">
           <h3 className="Auth-form-title">Guest Sign In</h3>
+          {/* Enter your Email here */}
           <div className="form-group mt-3">
             <label>Email address</label>
             <input
@@ -15,6 +17,7 @@ export default function Guestlogin() {
               placeholder="Enter email"
             />
           </div>
+          {/* Enter your password here */}
           <div className="form-group mt-3">
             <label>Password</label>
             <input
@@ -23,6 +26,7 @@ export default function Guestlogin() {
               placeholder="Enter password"
             />
           </div>
+          {/* Click the Submit Button after filling up the information */}
           <div className="d-grid gap-2 mt-3">
             <NavLink to="/home2">
             <button type="submit" className="btn btn-primary">
@@ -30,9 +34,6 @@ export default function Guestlogin() {
             </button>
             </NavLink>
           </div>
-          <p className="forgot-password text-right mt-2">
-           <NavLink to="/forgotpassword"> Forgot password?</NavLink>
-          </p>
         </div>
       </form>
     </div>

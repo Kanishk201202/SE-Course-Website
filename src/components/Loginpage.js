@@ -4,7 +4,7 @@ import { a, NavLink } from 'react-router-dom';
 export default function Loginpage() {
     return(
         <>
-           
+           {/*Login for different users */}
             <div className="Auth-form-container">
                 <form className="Auth-form">
                 <div className="Auth-form-content">

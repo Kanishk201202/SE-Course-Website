@@ -3,6 +3,7 @@ import { a, NavLink } from 'react-router-dom';
 export default function Navigationbar1() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      {/* Navigation bar usig bootstrap */}
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/home1">Home</NavLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

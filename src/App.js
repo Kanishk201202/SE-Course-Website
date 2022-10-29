@@ -57,7 +57,6 @@ import Loginpage from './components/Loginpage';
 import Studentlogin from './components/Studentlogin';
 import Administrativelogin from './components/Administrativelogin';
 import Guestlogin from './components/Guestlogin';
-import Forgotpassword from './components/Forgotpassword';
 import HosteldetailsA from './components1a/HosteldetailsA';
 import HostelstaffsA from './components1a/HostelstaffsA';
 import HostelwardensA from './components1a/HostelwardensA';
@@ -190,7 +189,6 @@ function App() {
           <Route exact path="/studentlogin" element={<Studentlogin/>} />
           <Route exact path="/administrativelogin" element={<Administrativelogin/>} />
           <Route exact path="/guestlogin" element={<Guestlogin/>} />
-          <Route exact path="/forgotpassword" element={<Forgotpassword/>} />
           <Route exact path="/home1" element={<Home1/>} />
           <Route exact path="/hosteldetailsa" element={<HosteldetailsA/>} />
           <Route exact path="/hostelinventorya" element={<HostelinventoryA/>} />

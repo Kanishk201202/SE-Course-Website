@@ -10,6 +10,7 @@ export default function Roomallocation() {
     {/*Navigation bar for navigating*/}
     <Navigationbar/>
     <br/>
+    {/*different tabs*/}
     <ul className="nav justify-content-center">
             <li className="nav-item">
                 <NavLink className="nav-link active" aria-current="page" to="/studentroom">Students room</NavLink>

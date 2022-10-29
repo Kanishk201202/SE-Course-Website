@@ -3,10 +3,12 @@ import Navigationbar1 from '../components/Navigationbar1';
 export default function SecuritydetailsA() {
   return (
     <>
+    {/*Navigation bar for navigating*/}
     <Navigationbar1/>
     <br/>
     <h2>Security Guard Details</h2>
     <br/>
+    {/*table for security guard details*/}
     <table class="table">
       <thead>
         <tr>

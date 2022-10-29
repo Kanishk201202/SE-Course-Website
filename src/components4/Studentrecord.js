@@ -3,10 +3,12 @@ import Navigationbar from '../components/Navigationbar';
 export default function Studentrecord() {
   return (
     <>
+    {/*Navigation bar for navigating*/}
         <Navigationbar/>
         <br/>
         <h2>Form for Student Records</h2>
         <br/>
+          {/*enter your name*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Name</label>
@@ -22,6 +24,7 @@ export default function Studentrecord() {
         </div>
 
         <br/>
+        {/*enter your roll number*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Roll Number</label>
@@ -38,6 +41,7 @@ export default function Studentrecord() {
 
         <br/>
         <div>
+             {/*select your programme*/}
         <h6>Programme</h6>
         
         <select className="form-select w-25" aria-label="Default select example" >
@@ -53,6 +57,7 @@ export default function Studentrecord() {
         
         <br/>
         <div>
+             {/*select your gender*/}
         <h6>Gender</h6>
         
         <select className="form-select w-25" aria-label="Default select example" >
@@ -63,11 +68,12 @@ export default function Studentrecord() {
         </select>
         </div>
         <br/>
+        {/*click submit button to submit data*/}
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             Submit
         </button>
 
-
+        {/*pulling data from database*/}
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">

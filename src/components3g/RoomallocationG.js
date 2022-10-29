@@ -10,6 +10,7 @@ export default function RoomallocationG() {
     {/*Navigation bar for navigating*/}
     <Navigationbar2/>
     <br/>
+    {/*different tabs*/}
     <ul className="nav justify-content-center">
             <li className="nav-item">
                 <NavLink className="nav-link" to="/guestroomg">Guest Room</NavLink>

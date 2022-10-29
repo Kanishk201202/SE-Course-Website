@@ -5,10 +5,12 @@ export default function VisitorslogbookA() {
     
     return (
     <>
+    {/*Navigation bar for navigating*/}
         <Navigationbar1/>
         <br/>
         <h2>Visitors Logbook</h2>
         <br/>
+        {/*table for visitors logbook*/}
         <table class="table">
       <thead>
         <tr>

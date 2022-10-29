@@ -5,8 +5,10 @@ import img1 from './images/2.jpg';
 export default function ConstitutionA() {
   return (
     <>
+    {/*Navigation bar for navigating*/}
         <Navigationbar1/>
         <br/>
+        {/*different tabs*/}
         <ul className="nav justify-content-center">
             <li className="nav-item">
                 <NavLink className="nav-link active" aria-current="page" to="/studentconstitutiona">Student Constitution</NavLink>
@@ -16,6 +18,7 @@ export default function ConstitutionA() {
             </li>
         </ul>
         <div classNameName="container my-3 w-75">
+          {/*about constitution*/}
         <h1>Constitution</h1>
         The structure of the students’ constitution is expressed in the formation of Student Affairs Council
         (SAC). The SAC shall be the apex policy-making student representative body. The policies shall be

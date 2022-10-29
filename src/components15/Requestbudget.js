@@ -6,8 +6,10 @@ export default function Requestbudget() {
     
     return (
     <>
+     {/*Navigation bar for navigating*/}
         <Navigationbar/>
         <br/>
+         {/*download form for requesting budget*/}
         <h2>Form for requesting budget</h2>
         <br/>
         Hehe Cato

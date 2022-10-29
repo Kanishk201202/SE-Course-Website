@@ -4,10 +4,12 @@ import img1 from './images/2020.jpg';
 export default function RequestparticipationA() {
   return (
    <>
+    {/*Navigation bar for navigating*/}
    <Navigationbar1/>
    <br/>
    <h2>Requesting for Participation</h2>
         <br/>
+         {/*table for list of students requesting for participation*/}
        <table class="table">
       <thead>
         <tr>

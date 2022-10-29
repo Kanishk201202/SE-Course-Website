@@ -6,10 +6,12 @@ export default function RequestbudgetA() {
     
     return (
     <>
+     {/*Navigation bar for navigating*/}
         <Navigationbar1/>
         <br/>
         <h2>Requesting for Budget</h2>
         <br/>
+         {/*table for list of students requesting for budget*/}
        <table class="table">
       <thead>
         <tr>

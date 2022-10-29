@@ -5,8 +5,10 @@ import img1 from './images/2020.jpg';
 export default function DownloadsA() {
   return (
     <>
+     {/*Navigation bar for navigating*/}
         <Navigationbar1/>
         <br/>
+         {/*different tabs*/}
         <ul className="nav justify-content-center">
             <li className="nav-item">
                 <NavLink className="nav-link active" aria-current="page" to="/requesttechnicala">Approval request for Technical Project</NavLink>

@@ -45,9 +45,11 @@ export default function GuestadmissionG() {
 
   return (
     <>
+        {/*Navigation bar for navigating */}
         <Navigationbar2/>
         <br/>
         <h2>Form for Guest Hostel Registration</h2>
+        {/*Enter your name */}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Name</label>
@@ -67,6 +69,7 @@ export default function GuestadmissionG() {
 
         <br/>
         <div>
+            {/*select your gender */}
         <h6>Gender</h6>
         
         <select className="form-select w-25" name='gender'
@@ -80,6 +83,7 @@ export default function GuestadmissionG() {
         </select>
         </div>
         <br/>
+        {/*Enter your Email */}
         <form class="row g-3">
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
@@ -90,6 +94,7 @@ export default function GuestadmissionG() {
             </div>
         </form>
         <br/>
+        {/*Enter your Contact Number */}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Contact Number</label>
@@ -107,6 +112,7 @@ export default function GuestadmissionG() {
             </div>
         </div>
         <br/>
+        {/*Date */}
         <div>
           <h6>From:</h6>
           <div className="input-group mb-3 w-25">
@@ -131,6 +137,7 @@ export default function GuestadmissionG() {
         </div>
 
         <br/>
+        {/*Button to submit data */}
         <button type="button" class="btn btn-primary" onClick={PostData}>Submit</button>
     </>
   )

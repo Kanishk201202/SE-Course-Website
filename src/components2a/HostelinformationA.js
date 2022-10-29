@@ -3,10 +3,12 @@ import Navigationbar1 from '../components/Navigationbar1';
 export default function HostelinformationA() {
   return (
     <>
+    {/*Navigation bar for navigating*/}
     <Navigationbar1/>
     <br/>
     <h2>Information about hostel</h2>
     <br/>
+    {/*Contact information for hostel*/}
     <div class="alert alert-warning alert-dismissible fade show" role="alert">
       <strong>For more details check in Hostel Details section of the website.</strong> 
       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>

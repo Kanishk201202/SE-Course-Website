@@ -45,10 +45,12 @@ export default function Studentadmission() {
 
   return (
     <>
+    {/*Navigation bar for navigating */}
         <Navigationbar/>
         <br/>
         <h2>Student Admission Form</h2>
         <br/>
+        {/*Enter your name */}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Name</label>
@@ -67,6 +69,7 @@ export default function Studentadmission() {
         </div>
 
         <br/>
+        {/*Enter your Roll Number */}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Roll Number</label>
@@ -86,6 +89,7 @@ export default function Studentadmission() {
 
         <br/>
         <div>
+            {/*select your programme */}
         <h6>Programme</h6>
         
         <select className="form-select w-25" name='programme'
@@ -104,6 +108,7 @@ export default function Studentadmission() {
         
         <br/>
         <div>
+            {/*select your gender */}
         <h6>Gender</h6>
         
         <select className="form-select w-25" name='gender' 
@@ -117,6 +122,7 @@ export default function Studentadmission() {
         </select>
         </div>
         <br/>
+        {/*Enter your Email */}
         <form class="row g-3">
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
@@ -127,6 +133,7 @@ export default function Studentadmission() {
             </div>
         </form>
         <br/>
+         {/*Enter your Contact Number */}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Contact Number</label>
@@ -144,6 +151,7 @@ export default function Studentadmission() {
             </div>
         </div>
         <br/>
+        {/*Button to submit data */}
         <button type="button" class="btn btn-primary" onClick={PostData}>Submit</button>
 
     </>

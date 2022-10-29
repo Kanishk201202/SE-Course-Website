@@ -3,10 +3,12 @@ import Navigationbar2 from '../components/Navigationbar2';
 export default function HostelfeesG() {
   return (
     <>
+    {/*Navigation bar for navigating*/}
     <Navigationbar2/>
     <br/>
     <h2>About Hostel Fees</h2>
     <br/>
+    {/*Accordion for hostel fees for different users*/}
     <div class="accordion" id="accordionPanelsStayOpenExample">
       <div class="accordion-item">
         <h2 class="accordion-header" id="panelsStayOpen-headingOne">

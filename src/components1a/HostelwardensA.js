@@ -3,10 +3,12 @@ import Navigationbar1 from '../components/Navigationbar1'
 export default function HostelwardensA() {
   return (
     <>
+    {/*Navigation bar for navigating */}
     <Navigationbar1/>
     <br/>
     <h1>Hostel Wardens</h1>
     <br/>
+    {/*Table for Hostel Wardens */}
     <table class="table">
       <thead>
         <tr>

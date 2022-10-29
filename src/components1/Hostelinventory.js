@@ -3,10 +3,12 @@ import Navigationbar from '../components/Navigationbar'
 export default function Hostelinventory() {
   return (
     <>
+    {/*Navigation bar for navigating */}
     <Navigationbar/>
     <br/>
     <h2>Hostel Inventory</h2>
     <br/>
+    {/*Table for inventory */}
     <table class="table">
       <thead>
         <tr>

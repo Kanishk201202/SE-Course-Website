@@ -4,12 +4,14 @@ import Navigationbar1 from '../components/Navigationbar1'
 export default function CouncellorinterfaceA() {
   return (
     <>
+     {/*Navigation bar for navigating*/}
     <Navigationbar1/>
     <br/>
     <h2>Counsellor Interface</h2>
     <br/>
     <h3>Progress of Students</h3>
     <br/>
+     {/*table for progress for students*/}
     <table class="table">
       <thead>
         <tr>

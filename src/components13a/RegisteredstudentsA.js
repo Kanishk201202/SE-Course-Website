@@ -4,10 +4,12 @@ import Navigationbar1 from '../components/Navigationbar1'
 export default function RegisteredstudentsA() {
   return (
     <>
+     {/*Navigation bar for navigating*/}
         <Navigationbar1/>
         <br/>
         <h2>Registered Students</h2>
         <br/>
+         {/*table for students registered for gcu session*/}
         <table class="table">
       <thead>
         <tr>

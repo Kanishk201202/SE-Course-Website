@@ -4,10 +4,12 @@ import Navigationbar from '../components/Navigationbar'
 export default function Booksession() {
   return (
     <>
+      {/*Navigation bar for navigating*/}
         <Navigationbar/>
         <br/>
         <h2>For for Booking Session</h2>
         <br/>
+         {/*enter your name*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Name</label>
@@ -23,6 +25,7 @@ export default function Booksession() {
         </div>
 
         <br/>
+        {/*enter your roll number*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Roll Number</label>
@@ -38,6 +41,7 @@ export default function Booksession() {
         </div>
 
         <br/>
+          {/*enter your contact number*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Contact Number</label>
@@ -52,6 +56,7 @@ export default function Booksession() {
             </div>
         </div>
         <br/>
+           {/*click submit button to submit data*/}
         <button type="button" class="btn btn-primary">Submit</button>
     </>
   )

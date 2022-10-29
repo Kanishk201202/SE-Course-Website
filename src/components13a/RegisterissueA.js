@@ -4,10 +4,12 @@ import Navigationbar1 from '../components/Navigationbar1';
 export default function RegisterissueA() {
   return (
     <>
+     {/*Navigation bar for navigating*/}
         <Navigationbar1/>
         <br/>
         <h2>Registered Issues</h2>
         <br/>
+         {/*table for issues registered by students*/}
         <table class="table">
       <thead>
         <tr>

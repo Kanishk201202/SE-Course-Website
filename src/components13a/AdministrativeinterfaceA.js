@@ -4,12 +4,14 @@ import Navigationbar1 from '../components/Navigationbar1'
 export default function AdministrativeinterfaceA() {
   return (
     <>
+     {/*Navigation bar for navigating*/}
         <Navigationbar1/>
         <br/>
         <h2>Administrative Interface</h2>
         <br/>
         <h3>Input from Students</h3>
         <br/>
+         {/*table for input from students*/}
         <table class="table">
       <thead>
         <tr>
@@ -44,6 +46,7 @@ export default function AdministrativeinterfaceA() {
 <br/>
 <h3>Category of Students for Councelling</h3>
 <br/>
+ {/*table for list of students for councelling */}
 <table class="table">
       <thead>
         <tr>

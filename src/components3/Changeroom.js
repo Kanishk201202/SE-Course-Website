@@ -44,10 +44,12 @@ export default function Changeroom() {
     }
   return (
     <>
+      {/*Navigation bar for navigating*/}
         <Navigationbar/>
         <br/>
         <h2>Form for Changing Room</h2>
         <br/>
+        {/*enter your name*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Name</label>
@@ -66,6 +68,7 @@ export default function Changeroom() {
         </div>
 
         <br/>
+         {/*enter your roll number*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Roll Number</label>
@@ -84,6 +87,7 @@ export default function Changeroom() {
         </div>
 
         <br/>
+         {/*enter your current room number*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Enter your Current Room Number</label>
@@ -97,6 +101,7 @@ export default function Changeroom() {
         </div>
         <br/>
         <div>
+             {/*select your programme*/}
         <h6>Programme</h6>
         
         <select className="form-select w-25" name='programme'
@@ -115,6 +120,7 @@ export default function Changeroom() {
         
         <br/>
         <div>
+             {/*select your gender*/}
         <h6>Gender</h6>
         
         <select className="form-select w-25" name='gender'
@@ -128,6 +134,7 @@ export default function Changeroom() {
         </select>
         </div>
         <br/>
+         {/*enter your email*/}
         <form class="row g-3">
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
@@ -138,6 +145,7 @@ export default function Changeroom() {
             </div>
         </form>
         <br/>
+         {/*enter your contact number*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Contact Number</label>
@@ -155,6 +163,7 @@ export default function Changeroom() {
             </div>
         </div>
         <br/>
+         {/*enter your reason for changing room*/}
         <div className="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Reason for changing room</label>
             <textarea className="form-control" name='reason' 
@@ -163,6 +172,7 @@ export default function Changeroom() {
             id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
         <br/>
+         {/*click submit button to submit data*/}
         <button type="button" class="btn btn-primary" onClick={PostData}>Submit</button>
 
     </>

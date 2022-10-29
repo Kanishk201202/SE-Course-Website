@@ -44,10 +44,12 @@ export default function GuestroomG() {
     }
   return (
     <>
+        {/*Navigation bar for navigating*/}
         <Navigationbar2/>
         <br/>
         <h2>Form for Guest Room Allocation</h2>
         <br/>
+        {/*enter your name*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Name</label>
@@ -67,6 +69,7 @@ export default function GuestroomG() {
 
         <br/>
         <div>
+            {/*select your gender*/}
         <h6>Gender</h6>
         
         <select className="form-select w-25" name='gender' 
@@ -80,6 +83,7 @@ export default function GuestroomG() {
         </select>
         </div>
         <br/>
+         {/*enter your email*/}
         <form class="row g-3">
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
@@ -90,6 +94,7 @@ export default function GuestroomG() {
             </div>
         </form>
         <br/>
+         {/*enter your contact number*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Contact Number</label>
@@ -107,11 +112,12 @@ export default function GuestroomG() {
             </div>
         </div>
         <br/>
+        {/*click submit button to submit data*/}
         <button type="button" class="btn btn-primary" onClick={PostData} data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             Submit
         </button>
 
-
+        {/*pulling data from server*/}
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">

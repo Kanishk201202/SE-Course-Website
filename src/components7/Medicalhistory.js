@@ -4,10 +4,12 @@ import Navigationbar from '../components/Navigationbar'
 export default function Medicalhistory() {
   return (
     <>
+    {/*Navigation bar for navigating*/}
     <Navigationbar/>
     <br/>
     <h2>Student Medical History</h2>
     <br/>
+    {/*table for student medical history*/}
     <table class="table">
       <thead>
         <tr>

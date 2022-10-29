@@ -4,10 +4,12 @@ import Navigationbar1 from '../components/Navigationbar1'
 export default function MedvisitsA() {
   return (
     <>
+    {/*Navigation bar for navigating*/}
     <Navigationbar1/>
     <br/>
     <h2>Medical Visits</h2>
     <br/>
+    {/*table for medical visits*/}
     <table class="table">
       <thead>
         <tr>

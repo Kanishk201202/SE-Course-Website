@@ -4,10 +4,12 @@ import Navigationbar2 from '../components/Navigationbar2'
 export default function BookappointmentG() {
   return (
     <>
+    {/*Navigation bar for navigating*/}
         <Navigationbar2/>
         <br/>
         <h2>Form for Booking Appointment</h2>
         <br/>
+        {/*enter your name*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Name</label>
@@ -23,6 +25,7 @@ export default function BookappointmentG() {
         </div>
 
         <br/>
+        {/*enter your email*/}
         <form class="row g-3">
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
@@ -30,6 +33,7 @@ export default function BookappointmentG() {
             </div>
         </form>
         <br/>
+         {/*enter your contact number*/}
         <div className="row g-3 align-items-center">
             <div className="col-auto">
                 <label for="inputPassword6" className="col-form-label">Contact Number</label>
@@ -44,6 +48,7 @@ export default function BookappointmentG() {
             </div>
         </div>
         <br/>
+         {/*date*/}
         <div>
           <h6>Date of Appointment :</h6>
           <div className="input-group mb-3 w-25">
@@ -59,6 +64,7 @@ export default function BookappointmentG() {
           </div>
         </div>
         <br/>
+        {/*click submit button to submit data*/}
         <button type="button" class="btn btn-primary">Submit</button>
     </>
   )

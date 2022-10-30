@@ -68,3 +68,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Modules in the project are:-
+1. Hostel details 
+2. Hostel room provisioning
+3. Room occupancy record-keeping
+4. Mess registration 
+5. Hostel and mess maintenance query
+6. Student and HM staff medical insurance
+7. Technical activities 
+8. National Sports Organization  (NSO)
+9. National Service Scheme (NSS) 
+10. Student clubs 
+11. Student elections 
+12. Downloads 
+
+The dependencies are:- It depend on ReactJS and javascript along with bootstrap. It also depende on NodeJS, ExpressJS and MongoDB.
+
+Installation Instructions:-
+Download the file from our github repository.
+Make a new react application.
+Copy our file into that new react application.
+Then open terminal do npm start.
+
+Team Contributions are:- 
+Kanishk:- I contributed in the project by developing the front end part of the modules and making the login page and separating the modules and designing different pages according to the different users.
+Subham:- He mad ethe backend part of the project by using NodeJs and ExpressJs and also connected it to MongoDB where the data is stored and from where we can pull data.
+
